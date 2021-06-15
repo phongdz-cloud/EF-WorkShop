@@ -8,15 +8,18 @@ using System.Threading.Tasks;
 
 namespace EF_Project_Demo.Model
 {
-    [Table("HOADON")]
     public class Sale
     {
-        [Key]
         public int SaleId { get; set; }
-        [Required]
         public DateTime InvoiceDate { get; set; }
 
-        public int EmployeeId { get; set; }
+        public int? EmployeeId { get; set; }
         public Employee Employee { get; set; }
+
+        public double Total { get; set; }
+
+        public ICollection<SalesDetail> SalesDetails { get; set; } = new List<SalesDetail>();
+
+        public ICollection<Product> Products { get; set; } = new List<Product>();
     }
 }

@@ -15,9 +15,23 @@ namespace EF_Project_Demo.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "3.1.14")
+                .HasAnnotation("ProductVersion", "3.1.6")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+            modelBuilder.Entity("EF_Project_Demo.Model.Account", b =>
+                {
+                    b.Property<string>("UserName")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("Password")
+                        .HasColumnType("nvarchar(150)")
+                        .HasMaxLength(150);
+
+                    b.HasKey("UserName");
+
+                    b.ToTable("TAIKHOAN");
+                });
 
             modelBuilder.Entity("EF_Project_Demo.Model.Category", b =>
                 {
@@ -27,12 +41,12 @@ namespace EF_Project_Demo.Migrations
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
                     b.Property<string>("CategoryName")
-                        .IsRequired()
-                        .HasColumnType("ntext");
+                        .HasColumnType("nvarchar(150)")
+                        .HasMaxLength(150);
 
                     b.Property<string>("Description")
-                        .IsRequired()
-                        .HasColumnType("ntext");
+                        .HasColumnType("nvarchar(150)")
+                        .HasMaxLength(150);
 
                     b.HasKey("CategoryId");
 
@@ -48,23 +62,24 @@ namespace EF_Project_Demo.Migrations
 
                     b.Property<string>("Address")
                         .IsRequired()
-                        .HasColumnType("nvarchar(50)")
-                        .HasMaxLength(50);
+                        .HasColumnType("nvarchar(100)")
+                        .HasMaxLength(100);
 
                     b.Property<string>("EmployeeName")
                         .IsRequired()
-                        .HasColumnType("nvarchar(50)")
-                        .HasMaxLength(50);
+                        .HasColumnType("nvarchar(100)")
+                        .HasMaxLength(100);
 
                     b.Property<byte[]>("Image")
                         .HasColumnType("varbinary(max)");
 
                     b.Property<string>("Phone")
                         .IsRequired()
-                        .HasColumnType("nvarchar(50)")
-                        .HasMaxLength(50);
+                        .HasColumnType("nvarchar(100)")
+                        .HasMaxLength(100);
 
                     b.Property<int>("Salary")
+                        .HasColumnName("money")
                         .HasColumnType("int");
 
                     b.HasKey("EmployeeId");
@@ -79,11 +94,13 @@ namespace EF_Project_Demo.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<int>("CategoryID")
+                    b.Property<decimal>("Amount")
+                        .HasColumnType("decimal");
+
+                    b.Property<int?>("CategoryID")
                         .HasColumnType("int");
 
                     b.Property<byte[]>("Image")
-                        .IsRequired()
                         .HasColumnType("varbinary(max)");
 
                     b.Property<decimal>("Price")
@@ -91,12 +108,17 @@ namespace EF_Project_Demo.Migrations
 
                     b.Property<string>("ProductName")
                         .IsRequired()
-                        .HasColumnType("ntext")
-                        .HasMaxLength(50);
+                        .HasColumnType("nvarchar(150)")
+                        .HasMaxLength(150);
+
+                    b.Property<int?>("SaleId")
+                        .HasColumnType("int");
 
                     b.HasKey("ProductID");
 
                     b.HasIndex("CategoryID");
+
+                    b.HasIndex("SaleId");
 
                     b.ToTable("SANPHAM");
                 });
@@ -108,11 +130,14 @@ namespace EF_Project_Demo.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<int>("EmployeeId")
+                    b.Property<int?>("EmployeeId")
                         .HasColumnType("int");
 
                     b.Property<DateTime>("InvoiceDate")
                         .HasColumnType("datetime2");
+
+                    b.Property<double>("Total")
+                        .HasColumnType("float");
 
                     b.HasKey("SaleId");
 
@@ -123,18 +148,18 @@ namespace EF_Project_Demo.Migrations
 
             modelBuilder.Entity("EF_Project_Demo.Model.SalesDetail", b =>
                 {
-                    b.Property<int>("SaleId")
-                        .HasColumnType("int");
-
                     b.Property<int>("ProductID")
                         .HasColumnType("int");
 
-                    b.Property<decimal>("Total")
+                    b.Property<int>("SaleId")
+                        .HasColumnType("int");
+
+                    b.Property<decimal>("Amount")
                         .HasColumnType("money");
 
-                    b.HasKey("SaleId", "ProductID");
+                    b.HasKey("ProductID", "SaleId");
 
-                    b.HasIndex("ProductID");
+                    b.HasIndex("SaleId");
 
                     b.ToTable("CHITIETHOADON");
                 });
@@ -144,8 +169,11 @@ namespace EF_Project_Demo.Migrations
                     b.HasOne("EF_Project_Demo.Model.Category", "Category")
                         .WithMany("Products")
                         .HasForeignKey("CategoryID")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .OnDelete(DeleteBehavior.SetNull);
+
+                    b.HasOne("EF_Project_Demo.Model.Sale", null)
+                        .WithMany("Products")
+                        .HasForeignKey("SaleId");
                 });
 
             modelBuilder.Entity("EF_Project_Demo.Model.Sale", b =>
@@ -153,21 +181,23 @@ namespace EF_Project_Demo.Migrations
                     b.HasOne("EF_Project_Demo.Model.Employee", "Employee")
                         .WithMany("Sales")
                         .HasForeignKey("EmployeeId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasConstraintName("FK_Employee")
+                        .OnDelete(DeleteBehavior.SetNull);
                 });
 
             modelBuilder.Entity("EF_Project_Demo.Model.SalesDetail", b =>
                 {
                     b.HasOne("EF_Project_Demo.Model.Product", "Product")
-                        .WithMany()
+                        .WithMany("SalesDetails")
                         .HasForeignKey("ProductID")
+                        .HasConstraintName("FK_ProductID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.HasOne("EF_Project_Demo.Model.Sale", "Sale")
-                        .WithMany()
+                        .WithMany("SalesDetails")
                         .HasForeignKey("SaleId")
+                        .HasConstraintName("FK_SaleID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });

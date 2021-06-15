@@ -8,17 +8,14 @@ using System.Threading.Tasks;
 
 namespace EF_Project_Demo.Model
 {
-    [Table("CHITIETHOADON")]
     public class SalesDetail
     {
-        //[Key]
-        public int SaleId { get; set; }
+        public int SaleId { get; set; } 
         public Sale Sale { get; set; }
         public int ProductID { get; set; }
         public Product Product { get; set; }
 
-        [Column(TypeName = "money")]
-        public decimal Total { get; set; }
+        public int Amount { get; set; }
 
 
     }

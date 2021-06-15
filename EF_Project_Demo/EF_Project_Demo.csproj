@@ -46,61 +46,80 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="Controller\CategoryController.cs" />
+    <Compile Include="Controller\DbContextController.cs" />
+    <Compile Include="Controller\EmployeeController.cs" />
+    <Compile Include="Controller\ProductController.cs" />
+    <Compile Include="Controller\SaleController.cs" />
+    <Compile Include="Controller\SaleDetailController.cs" />
+    <Compile Include="frmLogin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\20210609065438_WorkShop_V0.cs" />
-    <Compile Include="Migrations\20210609065438_WorkShop_V0.designer.cs">
-      <DependentUpon>20210609065438_WorkShop_V0.cs</DependentUpon>
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Migrations\20210609065559_WorkShop_V1.cs" />
-    <Compile Include="Migrations\20210609065559_WorkShop_V1.designer.cs">
-      <DependentUpon>20210609065559_WorkShop_V1.cs</DependentUpon>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\20210609070209_WorkShop_V2.cs" />
-    <Compile Include="Migrations\20210609070209_WorkShop_V2.designer.cs">
-      <DependentUpon>20210609070209_WorkShop_V2.cs</DependentUpon>
+    <Compile Include="frmSignUp.cs">
+      <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Migrations\20210609071443_WorkShop_V3.cs" />
-    <Compile Include="Migrations\20210609071443_WorkShop_V3.designer.cs">
-      <DependentUpon>20210609071443_WorkShop_V3.cs</DependentUpon>
+    <Compile Include="frmSignUp.Designer.cs">
+      <DependentUpon>frmSignUp.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\20210609071850_WorkShop_V4.cs" />
-    <Compile Include="Migrations\20210609071850_WorkShop_V4.designer.cs">
-      <DependentUpon>20210609071850_WorkShop_V4.cs</DependentUpon>
+    <Compile Include="Migrations\20210611071455_v1.cs" />
+    <Compile Include="Migrations\20210611071455_v1.designer.cs">
+      <DependentUpon>20210611071455_v1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\20210609073814_WorkShop_V5.cs" />
-    <Compile Include="Migrations\20210609073814_WorkShop_V5.designer.cs">
-      <DependentUpon>20210609073814_WorkShop_V5.cs</DependentUpon>
+    <Compile Include="Migrations\20210611093827_v2.cs" />
+    <Compile Include="Migrations\20210611093827_v2.designer.cs">
+      <DependentUpon>20210611093827_v2.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\20210609074441_WorkShop_V6.cs" />
-    <Compile Include="Migrations\20210609074441_WorkShop_V6.designer.cs">
-      <DependentUpon>20210609074441_WorkShop_V6.cs</DependentUpon>
+    <Compile Include="Migrations\20210612102921_v3.cs" />
+    <Compile Include="Migrations\20210612102921_v3.designer.cs">
+      <DependentUpon>20210612102921_v3.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\20210609074509_WorkShop_V7.cs" />
-    <Compile Include="Migrations\20210609074509_WorkShop_V7.designer.cs">
-      <DependentUpon>20210609074509_WorkShop_V7.cs</DependentUpon>
+    <Compile Include="Migrations\20210612103907_v4.cs" />
+    <Compile Include="Migrations\20210612103907_v4.designer.cs">
+      <DependentUpon>20210612103907_v4.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\20210609075221_WorkShop_V8.cs" />
-    <Compile Include="Migrations\20210609075221_WorkShop_V8.designer.cs">
-      <DependentUpon>20210609075221_WorkShop_V8.cs</DependentUpon>
+    <Compile Include="Migrations\20210612120349_v5.cs" />
+    <Compile Include="Migrations\20210612120349_v5.designer.cs">
+      <DependentUpon>20210612120349_v5.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\20210609075554_WorkShop_V9.cs" />
-    <Compile Include="Migrations\20210609075554_WorkShop_V9.designer.cs">
-      <DependentUpon>20210609075554_WorkShop_V9.cs</DependentUpon>
+    <Compile Include="Migrations\20210613030535_v6.cs" />
+    <Compile Include="Migrations\20210613030535_v6.designer.cs">
+      <DependentUpon>20210613030535_v6.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\20210609080525_WorkShop_V10.cs" />
-    <Compile Include="Migrations\20210609080525_WorkShop_V10.designer.cs">
-      <DependentUpon>20210609080525_WorkShop_V10.cs</DependentUpon>
+    <Compile Include="Migrations\20210613062734_v7.cs" />
+    <Compile Include="Migrations\20210613062734_v7.designer.cs">
+      <DependentUpon>20210613062734_v7.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\20210609082016_WorkShop_V11.cs" />
-    <Compile Include="Migrations\20210609082016_WorkShop_V11.designer.cs">
-      <DependentUpon>20210609082016_WorkShop_V11.cs</DependentUpon>
+    <Compile Include="Migrations\20210615090525_v8.cs" />
+    <Compile Include="Migrations\20210615090525_v8.designer.cs">
+      <DependentUpon>20210615090525_v8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20210615093910_v9.cs" />
+    <Compile Include="Migrations\20210615093910_v9.designer.cs">
+      <DependentUpon>20210615093910_v9.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20210615104202_v10.cs" />
+    <Compile Include="Migrations\20210615104202_v10.designer.cs">
+      <DependentUpon>20210615104202_v10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20210615120435_v11.cs" />
+    <Compile Include="Migrations\20210615120435_v11.designer.cs">
+      <DependentUpon>20210615120435_v11.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20210615121508_v12.cs" />
+    <Compile Include="Migrations\20210615121508_v12.designer.cs">
+      <DependentUpon>20210615121508_v12.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\WorkShopContextModelSnapshot.cs" />
+    <Compile Include="Model\Account.cs" />
     <Compile Include="Model\Category.cs" />
     <Compile Include="Model\Employee.cs" />
     <Compile Include="Model\Product.cs" />
@@ -109,6 +128,63 @@
     <Compile Include="Model\WorkShopContext.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="USCCategory.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="USCCategory.Designer.cs">
+      <DependentUpon>USCCategory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="USCEmployee.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="USCEmployee.Designer.cs">
+      <DependentUpon>USCEmployee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="USCHome.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="USCHome.Designer.cs">
+      <DependentUpon>USCHome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="USCImageCategory.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="USCImageCategory.Designer.cs">
+      <DependentUpon>USCImageCategory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="USCImageProduct.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="USCImageProduct.Designer.cs">
+      <DependentUpon>USCImageProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="USCOrder.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="USCOrder.Designer.cs">
+      <DependentUpon>USCOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="USCProduct.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="USCProduct.Designer.cs">
+      <DependentUpon>USCProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="USCSell.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="USCSell.Designer.cs">
+      <DependentUpon>USCSell.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSignUp.resx">
+      <DependentUpon>frmSignUp.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -118,7 +194,30 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <None Include="ClassDiagram1.cd" />
+    <EmbeddedResource Include="USCCategory.resx">
+      <DependentUpon>USCCategory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="USCEmployee.resx">
+      <DependentUpon>USCEmployee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="USCHome.resx">
+      <DependentUpon>USCHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="USCImageCategory.resx">
+      <DependentUpon>USCImageCategory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="USCImageProduct.resx">
+      <DependentUpon>USCImageProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="USCOrder.resx">
+      <DependentUpon>USCOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="USCProduct.resx">
+      <DependentUpon>USCProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="USCSell.resx">
+      <DependentUpon>USCSell.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -128,33 +227,25 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="WorkShopDiagram.cd" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Image\" />
+  </ItemGroup>
+  <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore">
-      <Version>3.1.14</Version>
+      <Version>3.1.6</Version>
     </PackageReference>
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer">
-      <Version>3.1.8</Version>
+      <Version>3.1.6</Version>
     </PackageReference>
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools">
-      <Version>3.1.8</Version>
+      <Version>3.1.6</Version>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
-    </PackageReference>
-    <PackageReference Include="Microsoft.Extensions.Logging">
-      <Version>3.1.8</Version>
-    </PackageReference>
-    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions">
-      <Version>3.1.14</Version>
-    </PackageReference>
-    <PackageReference Include="Microsoft.Extensions.Logging.Console">
-      <Version>3.1.8</Version>
-    </PackageReference>
-    <PackageReference Include="Microsoft.Extensions.Logging.Debug">
-      <Version>3.1.0</Version>
     </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
