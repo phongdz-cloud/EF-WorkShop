@@ -17,7 +17,7 @@
           "lib/net461/Microsoft.Bcl.AsyncInterfaces.dll": {}
         }
       },
-      "Microsoft.Bcl.HashCode/1.1.1": {
+      "Microsoft.Bcl.HashCode/1.1.0": {
         "type": "package",
         "frameworkAssemblies": [
           "System",
@@ -42,13 +42,11 @@
           "lib/net45/_._": {}
         }
       },
-      "Microsoft.Data.SqlClient/1.1.3": {
+      "Microsoft.Data.SqlClient/1.0.19269.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Data.SqlClient.sni": "[1.1.0, 1.2.0)",
+          "Microsoft.Data.SqlClient.sni": "1.0.19235.1",
           "Microsoft.Identity.Client": "3.0.8",
-          "Microsoft.IdentityModel.JsonWebTokens": "5.5.0",
-          "Microsoft.IdentityModel.Protocols.OpenIdConnect": "5.5.0",
           "System.Data.Common": "4.3.0"
         },
         "frameworkAssemblies": [
@@ -104,22 +102,22 @@
           }
         }
       },
-      "Microsoft.Data.SqlClient.SNI/1.1.0": {
+      "Microsoft.Data.SqlClient.SNI/1.0.19235.1": {
         "type": "package",
         "build": {
           "buildTransitive/net46/Microsoft.Data.SqlClient.SNI.targets": {}
         }
       },
-      "Microsoft.EntityFrameworkCore/3.1.14": {
+      "Microsoft.EntityFrameworkCore/3.1.6": {
         "type": "package",
         "dependencies": {
           "Microsoft.Bcl.AsyncInterfaces": "1.1.1",
-          "Microsoft.Bcl.HashCode": "1.1.1",
-          "Microsoft.EntityFrameworkCore.Abstractions": "3.1.14",
-          "Microsoft.EntityFrameworkCore.Analyzers": "3.1.14",
-          "Microsoft.Extensions.Caching.Memory": "3.1.14",
-          "Microsoft.Extensions.DependencyInjection": "3.1.14",
-          "Microsoft.Extensions.Logging": "3.1.14",
+          "Microsoft.Bcl.HashCode": "1.1.0",
+          "Microsoft.EntityFrameworkCore.Abstractions": "3.1.6",
+          "Microsoft.EntityFrameworkCore.Analyzers": "3.1.6",
+          "Microsoft.Extensions.Caching.Memory": "3.1.6",
+          "Microsoft.Extensions.DependencyInjection": "3.1.6",
+          "Microsoft.Extensions.Logging": "3.1.6",
           "System.Collections.Immutable": "1.7.1",
           "System.ComponentModel.Annotations": "4.7.0",
           "System.Diagnostics.DiagnosticSource": "4.7.1"
@@ -131,7 +129,7 @@
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.dll": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Abstractions/3.1.14": {
+      "Microsoft.EntityFrameworkCore.Abstractions/3.1.6": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Abstractions.dll": {}
@@ -140,7 +138,7 @@
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Abstractions.dll": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Analyzers/3.1.14": {
+      "Microsoft.EntityFrameworkCore.Analyzers/3.1.6": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/_._": {}
@@ -149,11 +147,11 @@
           "lib/netstandard2.0/_._": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Design/3.1.8": {
+      "Microsoft.EntityFrameworkCore.Design/3.1.6": {
         "type": "package",
         "dependencies": {
           "Microsoft.CSharp": "4.7.0",
-          "Microsoft.EntityFrameworkCore.Relational": "3.1.8"
+          "Microsoft.EntityFrameworkCore.Relational": "3.1.6"
         },
         "compile": {
           "lib/netstandard2.0/_._": {}
@@ -165,10 +163,10 @@
           "build/net461/Microsoft.EntityFrameworkCore.Design.props": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Relational/3.1.8": {
+      "Microsoft.EntityFrameworkCore.Relational/3.1.6": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore": "3.1.8"
+          "Microsoft.EntityFrameworkCore": "3.1.6"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Relational.dll": {}
@@ -177,11 +175,11 @@
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Relational.dll": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.SqlServer/3.1.8": {
+      "Microsoft.EntityFrameworkCore.SqlServer/3.1.6": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Data.SqlClient": "1.1.3",
-          "Microsoft.EntityFrameworkCore.Relational": "3.1.8"
+          "Microsoft.Data.SqlClient": "1.0.19269.1",
+          "Microsoft.EntityFrameworkCore.Relational": "3.1.6"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.SqlServer.dll": {}
@@ -190,10 +188,10 @@
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.SqlServer.dll": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Tools/3.1.8": {
+      "Microsoft.EntityFrameworkCore.Tools/3.1.6": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.Design": "3.1.8"
+          "Microsoft.EntityFrameworkCore.Design": "3.1.6"
         },
         "compile": {
           "lib/netstandard2.0/_._": {}
@@ -202,10 +200,10 @@
           "lib/netstandard2.0/_._": {}
         }
       },
-      "Microsoft.Extensions.Caching.Abstractions/3.1.14": {
+      "Microsoft.Extensions.Caching.Abstractions/3.1.6": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Primitives": "3.1.14"
+          "Microsoft.Extensions.Primitives": "3.1.6"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.Caching.Abstractions.dll": {}
@@ -214,13 +212,13 @@
           "lib/netstandard2.0/Microsoft.Extensions.Caching.Abstractions.dll": {}
         }
       },
-      "Microsoft.Extensions.Caching.Memory/3.1.14": {
+      "Microsoft.Extensions.Caching.Memory/3.1.6": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Caching.Abstractions": "3.1.14",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.14",
-          "Microsoft.Extensions.Logging.Abstractions": "3.1.14",
-          "Microsoft.Extensions.Options": "3.1.14"
+          "Microsoft.Extensions.Caching.Abstractions": "3.1.6",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.6",
+          "Microsoft.Extensions.Logging.Abstractions": "3.1.6",
+          "Microsoft.Extensions.Options": "3.1.6"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.Caching.Memory.dll": {}
@@ -229,10 +227,10 @@
           "lib/netstandard2.0/Microsoft.Extensions.Caching.Memory.dll": {}
         }
       },
-      "Microsoft.Extensions.Configuration/3.1.8": {
+      "Microsoft.Extensions.Configuration/3.1.6": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Configuration.Abstractions": "3.1.8"
+          "Microsoft.Extensions.Configuration.Abstractions": "3.1.6"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll": {}
@@ -241,10 +239,10 @@
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll": {}
         }
       },
-      "Microsoft.Extensions.Configuration.Abstractions/3.1.8": {
+      "Microsoft.Extensions.Configuration.Abstractions/3.1.6": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Primitives": "3.1.8"
+          "Microsoft.Extensions.Primitives": "3.1.6"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {}
@@ -253,10 +251,10 @@
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {}
         }
       },
-      "Microsoft.Extensions.Configuration.Binder/3.1.8": {
+      "Microsoft.Extensions.Configuration.Binder/3.1.6": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Configuration": "3.1.8"
+          "Microsoft.Extensions.Configuration": "3.1.6"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.Binder.dll": {}
@@ -265,11 +263,11 @@
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.Binder.dll": {}
         }
       },
-      "Microsoft.Extensions.DependencyInjection/3.1.14": {
+      "Microsoft.Extensions.DependencyInjection/3.1.6": {
         "type": "package",
         "dependencies": {
           "Microsoft.Bcl.AsyncInterfaces": "1.1.1",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.14"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.6"
         },
         "compile": {
           "lib/net461/Microsoft.Extensions.DependencyInjection.dll": {}
@@ -278,7 +276,7 @@
           "lib/net461/Microsoft.Extensions.DependencyInjection.dll": {}
         }
       },
-      "Microsoft.Extensions.DependencyInjection.Abstractions/3.1.14": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions/3.1.6": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
@@ -287,13 +285,13 @@
           "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
         }
       },
-      "Microsoft.Extensions.Logging/3.1.8": {
+      "Microsoft.Extensions.Logging/3.1.6": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Configuration.Binder": "3.1.8",
-          "Microsoft.Extensions.DependencyInjection": "3.1.8",
-          "Microsoft.Extensions.Logging.Abstractions": "3.1.8",
-          "Microsoft.Extensions.Options": "3.1.8"
+          "Microsoft.Extensions.Configuration.Binder": "3.1.6",
+          "Microsoft.Extensions.DependencyInjection": "3.1.6",
+          "Microsoft.Extensions.Logging.Abstractions": "3.1.6",
+          "Microsoft.Extensions.Options": "3.1.6"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.Logging.dll": {}
@@ -302,7 +300,7 @@
           "lib/netstandard2.0/Microsoft.Extensions.Logging.dll": {}
         }
       },
-      "Microsoft.Extensions.Logging.Abstractions/3.1.14": {
+      "Microsoft.Extensions.Logging.Abstractions/3.1.6": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {}
@@ -311,50 +309,11 @@
           "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {}
         }
       },
-      "Microsoft.Extensions.Logging.Configuration/3.1.8": {
+      "Microsoft.Extensions.Options/3.1.6": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Logging": "3.1.8",
-          "Microsoft.Extensions.Options.ConfigurationExtensions": "3.1.8"
-        },
-        "compile": {
-          "lib/netstandard2.0/Microsoft.Extensions.Logging.Configuration.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Microsoft.Extensions.Logging.Configuration.dll": {}
-        }
-      },
-      "Microsoft.Extensions.Logging.Console/3.1.8": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.Configuration.Abstractions": "3.1.8",
-          "Microsoft.Extensions.Logging": "3.1.8",
-          "Microsoft.Extensions.Logging.Configuration": "3.1.8"
-        },
-        "compile": {
-          "lib/netstandard2.0/Microsoft.Extensions.Logging.Console.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Microsoft.Extensions.Logging.Console.dll": {}
-        }
-      },
-      "Microsoft.Extensions.Logging.Debug/3.1.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.Logging": "3.1.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/Microsoft.Extensions.Logging.Debug.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Microsoft.Extensions.Logging.Debug.dll": {}
-        }
-      },
-      "Microsoft.Extensions.Options/3.1.14": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.14",
-          "Microsoft.Extensions.Primitives": "3.1.14",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.6",
+          "Microsoft.Extensions.Primitives": "3.1.6",
           "System.ComponentModel.Annotations": "4.7.0"
         },
         "compile": {
@@ -364,22 +323,7 @@
           "lib/netstandard2.0/Microsoft.Extensions.Options.dll": {}
         }
       },
-      "Microsoft.Extensions.Options.ConfigurationExtensions/3.1.8": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.Configuration.Abstractions": "3.1.8",
-          "Microsoft.Extensions.Configuration.Binder": "3.1.8",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.8",
-          "Microsoft.Extensions.Options": "3.1.8"
-        },
-        "compile": {
-          "lib/netstandard2.0/Microsoft.Extensions.Options.ConfigurationExtensions.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Microsoft.Extensions.Options.ConfigurationExtensions.dll": {}
-        }
-      },
-      "Microsoft.Extensions.Primitives/3.1.14": {
+      "Microsoft.Extensions.Primitives/3.1.6": {
         "type": "package",
         "dependencies": {
           "System.Memory": "4.5.2",
@@ -412,96 +356,6 @@
         },
         "runtime": {
           "lib/net45/Microsoft.Identity.Client.dll": {}
-        }
-      },
-      "Microsoft.IdentityModel.JsonWebTokens/5.5.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.IdentityModel.Tokens": "5.5.0",
-          "Newtonsoft.Json": "10.0.1"
-        },
-        "frameworkAssemblies": [
-          "Microsoft.CSharp"
-        ],
-        "compile": {
-          "lib/net461/Microsoft.IdentityModel.JsonWebTokens.dll": {}
-        },
-        "runtime": {
-          "lib/net461/Microsoft.IdentityModel.JsonWebTokens.dll": {}
-        }
-      },
-      "Microsoft.IdentityModel.Logging/5.5.0": {
-        "type": "package",
-        "frameworkAssemblies": [
-          "Microsoft.CSharp"
-        ],
-        "compile": {
-          "lib/net461/Microsoft.IdentityModel.Logging.dll": {}
-        },
-        "runtime": {
-          "lib/net461/Microsoft.IdentityModel.Logging.dll": {}
-        }
-      },
-      "Microsoft.IdentityModel.Protocols/5.5.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.IdentityModel.Logging": "5.5.0",
-          "Microsoft.IdentityModel.Tokens": "5.5.0"
-        },
-        "frameworkAssemblies": [
-          "Microsoft.CSharp",
-          "System.Net.Http"
-        ],
-        "compile": {
-          "lib/net461/Microsoft.IdentityModel.Protocols.dll": {}
-        },
-        "runtime": {
-          "lib/net461/Microsoft.IdentityModel.Protocols.dll": {}
-        }
-      },
-      "Microsoft.IdentityModel.Protocols.OpenIdConnect/5.5.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.IdentityModel.Protocols": "5.5.0",
-          "Newtonsoft.Json": "10.0.1",
-          "System.IdentityModel.Tokens.Jwt": "5.5.0"
-        },
-        "frameworkAssemblies": [
-          "Microsoft.CSharp",
-          "System.Net.Http"
-        ],
-        "compile": {
-          "lib/net461/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll": {}
-        },
-        "runtime": {
-          "lib/net461/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll": {}
-        }
-      },
-      "Microsoft.IdentityModel.Tokens/5.5.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.IdentityModel.Logging": "5.5.0",
-          "Newtonsoft.Json": "10.0.1"
-        },
-        "frameworkAssemblies": [
-          "Microsoft.CSharp",
-          "System",
-          "System.Core"
-        ],
-        "compile": {
-          "lib/net461/Microsoft.IdentityModel.Tokens.dll": {}
-        },
-        "runtime": {
-          "lib/net461/Microsoft.IdentityModel.Tokens.dll": {}
-        }
-      },
-      "Newtonsoft.Json/10.0.1": {
-        "type": "package",
-        "compile": {
-          "lib/net45/Newtonsoft.Json.dll": {}
-        },
-        "runtime": {
-          "lib/net45/Newtonsoft.Json.dll": {}
         }
       },
       "System.Buffers/4.5.1": {
@@ -573,23 +427,6 @@
         },
         "runtime": {
           "lib/net46/System.Diagnostics.DiagnosticSource.dll": {}
-        }
-      },
-      "System.IdentityModel.Tokens.Jwt/5.5.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.IdentityModel.JsonWebTokens": "5.5.0",
-          "Microsoft.IdentityModel.Tokens": "5.5.0",
-          "Newtonsoft.Json": "10.0.1"
-        },
-        "frameworkAssemblies": [
-          "Microsoft.CSharp"
-        ],
-        "compile": {
-          "lib/net461/System.IdentityModel.Tokens.Jwt.dll": {}
-        },
-        "runtime": {
-          "lib/net461/System.IdentityModel.Tokens.Jwt.dll": {}
         }
       },
       "System.Memory/4.5.4": {
@@ -667,7 +504,7 @@
           "lib/net461/Microsoft.Bcl.AsyncInterfaces.dll": {}
         }
       },
-      "Microsoft.Bcl.HashCode/1.1.1": {
+      "Microsoft.Bcl.HashCode/1.1.0": {
         "type": "package",
         "frameworkAssemblies": [
           "System",
@@ -692,13 +529,11 @@
           "lib/net45/_._": {}
         }
       },
-      "Microsoft.Data.SqlClient/1.1.3": {
+      "Microsoft.Data.SqlClient/1.0.19269.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Data.SqlClient.sni": "[1.1.0, 1.2.0)",
+          "Microsoft.Data.SqlClient.sni": "1.0.19235.1",
           "Microsoft.Identity.Client": "3.0.8",
-          "Microsoft.IdentityModel.JsonWebTokens": "5.5.0",
-          "Microsoft.IdentityModel.Protocols.OpenIdConnect": "5.5.0",
           "System.Data.Common": "4.3.0"
         },
         "frameworkAssemblies": [
@@ -744,22 +579,22 @@
           }
         }
       },
-      "Microsoft.Data.SqlClient.SNI/1.1.0": {
+      "Microsoft.Data.SqlClient.SNI/1.0.19235.1": {
         "type": "package",
         "build": {
           "buildTransitive/net46/Microsoft.Data.SqlClient.SNI.targets": {}
         }
       },
-      "Microsoft.EntityFrameworkCore/3.1.14": {
+      "Microsoft.EntityFrameworkCore/3.1.6": {
         "type": "package",
         "dependencies": {
           "Microsoft.Bcl.AsyncInterfaces": "1.1.1",
-          "Microsoft.Bcl.HashCode": "1.1.1",
-          "Microsoft.EntityFrameworkCore.Abstractions": "3.1.14",
-          "Microsoft.EntityFrameworkCore.Analyzers": "3.1.14",
-          "Microsoft.Extensions.Caching.Memory": "3.1.14",
-          "Microsoft.Extensions.DependencyInjection": "3.1.14",
-          "Microsoft.Extensions.Logging": "3.1.14",
+          "Microsoft.Bcl.HashCode": "1.1.0",
+          "Microsoft.EntityFrameworkCore.Abstractions": "3.1.6",
+          "Microsoft.EntityFrameworkCore.Analyzers": "3.1.6",
+          "Microsoft.Extensions.Caching.Memory": "3.1.6",
+          "Microsoft.Extensions.DependencyInjection": "3.1.6",
+          "Microsoft.Extensions.Logging": "3.1.6",
           "System.Collections.Immutable": "1.7.1",
           "System.ComponentModel.Annotations": "4.7.0",
           "System.Diagnostics.DiagnosticSource": "4.7.1"
@@ -771,7 +606,7 @@
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.dll": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Abstractions/3.1.14": {
+      "Microsoft.EntityFrameworkCore.Abstractions/3.1.6": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Abstractions.dll": {}
@@ -780,7 +615,7 @@
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Abstractions.dll": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Analyzers/3.1.14": {
+      "Microsoft.EntityFrameworkCore.Analyzers/3.1.6": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/_._": {}
@@ -789,11 +624,11 @@
           "lib/netstandard2.0/_._": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Design/3.1.8": {
+      "Microsoft.EntityFrameworkCore.Design/3.1.6": {
         "type": "package",
         "dependencies": {
           "Microsoft.CSharp": "4.7.0",
-          "Microsoft.EntityFrameworkCore.Relational": "3.1.8"
+          "Microsoft.EntityFrameworkCore.Relational": "3.1.6"
         },
         "compile": {
           "lib/netstandard2.0/_._": {}
@@ -805,10 +640,10 @@
           "build/net461/Microsoft.EntityFrameworkCore.Design.props": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Relational/3.1.8": {
+      "Microsoft.EntityFrameworkCore.Relational/3.1.6": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore": "3.1.8"
+          "Microsoft.EntityFrameworkCore": "3.1.6"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Relational.dll": {}
@@ -817,11 +652,11 @@
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Relational.dll": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.SqlServer/3.1.8": {
+      "Microsoft.EntityFrameworkCore.SqlServer/3.1.6": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Data.SqlClient": "1.1.3",
-          "Microsoft.EntityFrameworkCore.Relational": "3.1.8"
+          "Microsoft.Data.SqlClient": "1.0.19269.1",
+          "Microsoft.EntityFrameworkCore.Relational": "3.1.6"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.SqlServer.dll": {}
@@ -830,10 +665,10 @@
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.SqlServer.dll": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Tools/3.1.8": {
+      "Microsoft.EntityFrameworkCore.Tools/3.1.6": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.Design": "3.1.8"
+          "Microsoft.EntityFrameworkCore.Design": "3.1.6"
         },
         "compile": {
           "lib/netstandard2.0/_._": {}
@@ -842,10 +677,10 @@
           "lib/netstandard2.0/_._": {}
         }
       },
-      "Microsoft.Extensions.Caching.Abstractions/3.1.14": {
+      "Microsoft.Extensions.Caching.Abstractions/3.1.6": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Primitives": "3.1.14"
+          "Microsoft.Extensions.Primitives": "3.1.6"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.Caching.Abstractions.dll": {}
@@ -854,13 +689,13 @@
           "lib/netstandard2.0/Microsoft.Extensions.Caching.Abstractions.dll": {}
         }
       },
-      "Microsoft.Extensions.Caching.Memory/3.1.14": {
+      "Microsoft.Extensions.Caching.Memory/3.1.6": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Caching.Abstractions": "3.1.14",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.14",
-          "Microsoft.Extensions.Logging.Abstractions": "3.1.14",
-          "Microsoft.Extensions.Options": "3.1.14"
+          "Microsoft.Extensions.Caching.Abstractions": "3.1.6",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.6",
+          "Microsoft.Extensions.Logging.Abstractions": "3.1.6",
+          "Microsoft.Extensions.Options": "3.1.6"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.Caching.Memory.dll": {}
@@ -869,10 +704,10 @@
           "lib/netstandard2.0/Microsoft.Extensions.Caching.Memory.dll": {}
         }
       },
-      "Microsoft.Extensions.Configuration/3.1.8": {
+      "Microsoft.Extensions.Configuration/3.1.6": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Configuration.Abstractions": "3.1.8"
+          "Microsoft.Extensions.Configuration.Abstractions": "3.1.6"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll": {}
@@ -881,10 +716,10 @@
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll": {}
         }
       },
-      "Microsoft.Extensions.Configuration.Abstractions/3.1.8": {
+      "Microsoft.Extensions.Configuration.Abstractions/3.1.6": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Primitives": "3.1.8"
+          "Microsoft.Extensions.Primitives": "3.1.6"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {}
@@ -893,10 +728,10 @@
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {}
         }
       },
-      "Microsoft.Extensions.Configuration.Binder/3.1.8": {
+      "Microsoft.Extensions.Configuration.Binder/3.1.6": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Configuration": "3.1.8"
+          "Microsoft.Extensions.Configuration": "3.1.6"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.Binder.dll": {}
@@ -905,11 +740,11 @@
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.Binder.dll": {}
         }
       },
-      "Microsoft.Extensions.DependencyInjection/3.1.14": {
+      "Microsoft.Extensions.DependencyInjection/3.1.6": {
         "type": "package",
         "dependencies": {
           "Microsoft.Bcl.AsyncInterfaces": "1.1.1",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.14"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.6"
         },
         "compile": {
           "lib/net461/Microsoft.Extensions.DependencyInjection.dll": {}
@@ -918,7 +753,7 @@
           "lib/net461/Microsoft.Extensions.DependencyInjection.dll": {}
         }
       },
-      "Microsoft.Extensions.DependencyInjection.Abstractions/3.1.14": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions/3.1.6": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
@@ -927,13 +762,13 @@
           "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
         }
       },
-      "Microsoft.Extensions.Logging/3.1.8": {
+      "Microsoft.Extensions.Logging/3.1.6": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Configuration.Binder": "3.1.8",
-          "Microsoft.Extensions.DependencyInjection": "3.1.8",
-          "Microsoft.Extensions.Logging.Abstractions": "3.1.8",
-          "Microsoft.Extensions.Options": "3.1.8"
+          "Microsoft.Extensions.Configuration.Binder": "3.1.6",
+          "Microsoft.Extensions.DependencyInjection": "3.1.6",
+          "Microsoft.Extensions.Logging.Abstractions": "3.1.6",
+          "Microsoft.Extensions.Options": "3.1.6"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.Logging.dll": {}
@@ -942,7 +777,7 @@
           "lib/netstandard2.0/Microsoft.Extensions.Logging.dll": {}
         }
       },
-      "Microsoft.Extensions.Logging.Abstractions/3.1.14": {
+      "Microsoft.Extensions.Logging.Abstractions/3.1.6": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {}
@@ -951,50 +786,11 @@
           "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {}
         }
       },
-      "Microsoft.Extensions.Logging.Configuration/3.1.8": {
+      "Microsoft.Extensions.Options/3.1.6": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Logging": "3.1.8",
-          "Microsoft.Extensions.Options.ConfigurationExtensions": "3.1.8"
-        },
-        "compile": {
-          "lib/netstandard2.0/Microsoft.Extensions.Logging.Configuration.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Microsoft.Extensions.Logging.Configuration.dll": {}
-        }
-      },
-      "Microsoft.Extensions.Logging.Console/3.1.8": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.Configuration.Abstractions": "3.1.8",
-          "Microsoft.Extensions.Logging": "3.1.8",
-          "Microsoft.Extensions.Logging.Configuration": "3.1.8"
-        },
-        "compile": {
-          "lib/netstandard2.0/Microsoft.Extensions.Logging.Console.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Microsoft.Extensions.Logging.Console.dll": {}
-        }
-      },
-      "Microsoft.Extensions.Logging.Debug/3.1.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.Logging": "3.1.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/Microsoft.Extensions.Logging.Debug.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Microsoft.Extensions.Logging.Debug.dll": {}
-        }
-      },
-      "Microsoft.Extensions.Options/3.1.14": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.14",
-          "Microsoft.Extensions.Primitives": "3.1.14",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.6",
+          "Microsoft.Extensions.Primitives": "3.1.6",
           "System.ComponentModel.Annotations": "4.7.0"
         },
         "compile": {
@@ -1004,22 +800,7 @@
           "lib/netstandard2.0/Microsoft.Extensions.Options.dll": {}
         }
       },
-      "Microsoft.Extensions.Options.ConfigurationExtensions/3.1.8": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.Configuration.Abstractions": "3.1.8",
-          "Microsoft.Extensions.Configuration.Binder": "3.1.8",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.8",
-          "Microsoft.Extensions.Options": "3.1.8"
-        },
-        "compile": {
-          "lib/netstandard2.0/Microsoft.Extensions.Options.ConfigurationExtensions.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Microsoft.Extensions.Options.ConfigurationExtensions.dll": {}
-        }
-      },
-      "Microsoft.Extensions.Primitives/3.1.14": {
+      "Microsoft.Extensions.Primitives/3.1.6": {
         "type": "package",
         "dependencies": {
           "System.Memory": "4.5.2",
@@ -1052,96 +833,6 @@
         },
         "runtime": {
           "lib/net45/Microsoft.Identity.Client.dll": {}
-        }
-      },
-      "Microsoft.IdentityModel.JsonWebTokens/5.5.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.IdentityModel.Tokens": "5.5.0",
-          "Newtonsoft.Json": "10.0.1"
-        },
-        "frameworkAssemblies": [
-          "Microsoft.CSharp"
-        ],
-        "compile": {
-          "lib/net461/Microsoft.IdentityModel.JsonWebTokens.dll": {}
-        },
-        "runtime": {
-          "lib/net461/Microsoft.IdentityModel.JsonWebTokens.dll": {}
-        }
-      },
-      "Microsoft.IdentityModel.Logging/5.5.0": {
-        "type": "package",
-        "frameworkAssemblies": [
-          "Microsoft.CSharp"
-        ],
-        "compile": {
-          "lib/net461/Microsoft.IdentityModel.Logging.dll": {}
-        },
-        "runtime": {
-          "lib/net461/Microsoft.IdentityModel.Logging.dll": {}
-        }
-      },
-      "Microsoft.IdentityModel.Protocols/5.5.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.IdentityModel.Logging": "5.5.0",
-          "Microsoft.IdentityModel.Tokens": "5.5.0"
-        },
-        "frameworkAssemblies": [
-          "Microsoft.CSharp",
-          "System.Net.Http"
-        ],
-        "compile": {
-          "lib/net461/Microsoft.IdentityModel.Protocols.dll": {}
-        },
-        "runtime": {
-          "lib/net461/Microsoft.IdentityModel.Protocols.dll": {}
-        }
-      },
-      "Microsoft.IdentityModel.Protocols.OpenIdConnect/5.5.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.IdentityModel.Protocols": "5.5.0",
-          "Newtonsoft.Json": "10.0.1",
-          "System.IdentityModel.Tokens.Jwt": "5.5.0"
-        },
-        "frameworkAssemblies": [
-          "Microsoft.CSharp",
-          "System.Net.Http"
-        ],
-        "compile": {
-          "lib/net461/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll": {}
-        },
-        "runtime": {
-          "lib/net461/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll": {}
-        }
-      },
-      "Microsoft.IdentityModel.Tokens/5.5.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.IdentityModel.Logging": "5.5.0",
-          "Newtonsoft.Json": "10.0.1"
-        },
-        "frameworkAssemblies": [
-          "Microsoft.CSharp",
-          "System",
-          "System.Core"
-        ],
-        "compile": {
-          "lib/net461/Microsoft.IdentityModel.Tokens.dll": {}
-        },
-        "runtime": {
-          "lib/net461/Microsoft.IdentityModel.Tokens.dll": {}
-        }
-      },
-      "Newtonsoft.Json/10.0.1": {
-        "type": "package",
-        "compile": {
-          "lib/net45/Newtonsoft.Json.dll": {}
-        },
-        "runtime": {
-          "lib/net45/Newtonsoft.Json.dll": {}
         }
       },
       "System.Buffers/4.5.1": {
@@ -1213,23 +904,6 @@
         },
         "runtime": {
           "lib/net46/System.Diagnostics.DiagnosticSource.dll": {}
-        }
-      },
-      "System.IdentityModel.Tokens.Jwt/5.5.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.IdentityModel.JsonWebTokens": "5.5.0",
-          "Microsoft.IdentityModel.Tokens": "5.5.0",
-          "Newtonsoft.Json": "10.0.1"
-        },
-        "frameworkAssemblies": [
-          "Microsoft.CSharp"
-        ],
-        "compile": {
-          "lib/net461/System.IdentityModel.Tokens.Jwt.dll": {}
-        },
-        "runtime": {
-          "lib/net461/System.IdentityModel.Tokens.Jwt.dll": {}
         }
       },
       "System.Memory/4.5.4": {
@@ -1307,7 +981,7 @@
           "lib/net461/Microsoft.Bcl.AsyncInterfaces.dll": {}
         }
       },
-      "Microsoft.Bcl.HashCode/1.1.1": {
+      "Microsoft.Bcl.HashCode/1.1.0": {
         "type": "package",
         "frameworkAssemblies": [
           "System",
@@ -1332,13 +1006,11 @@
           "lib/net45/_._": {}
         }
       },
-      "Microsoft.Data.SqlClient/1.1.3": {
+      "Microsoft.Data.SqlClient/1.0.19269.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Data.SqlClient.sni": "[1.1.0, 1.2.0)",
+          "Microsoft.Data.SqlClient.sni": "1.0.19235.1",
           "Microsoft.Identity.Client": "3.0.8",
-          "Microsoft.IdentityModel.JsonWebTokens": "5.5.0",
-          "Microsoft.IdentityModel.Protocols.OpenIdConnect": "5.5.0",
           "System.Data.Common": "4.3.0"
         },
         "frameworkAssemblies": [
@@ -1384,22 +1056,22 @@
           }
         }
       },
-      "Microsoft.Data.SqlClient.SNI/1.1.0": {
+      "Microsoft.Data.SqlClient.SNI/1.0.19235.1": {
         "type": "package",
         "build": {
           "buildTransitive/net46/Microsoft.Data.SqlClient.SNI.targets": {}
         }
       },
-      "Microsoft.EntityFrameworkCore/3.1.14": {
+      "Microsoft.EntityFrameworkCore/3.1.6": {
         "type": "package",
         "dependencies": {
           "Microsoft.Bcl.AsyncInterfaces": "1.1.1",
-          "Microsoft.Bcl.HashCode": "1.1.1",
-          "Microsoft.EntityFrameworkCore.Abstractions": "3.1.14",
-          "Microsoft.EntityFrameworkCore.Analyzers": "3.1.14",
-          "Microsoft.Extensions.Caching.Memory": "3.1.14",
-          "Microsoft.Extensions.DependencyInjection": "3.1.14",
-          "Microsoft.Extensions.Logging": "3.1.14",
+          "Microsoft.Bcl.HashCode": "1.1.0",
+          "Microsoft.EntityFrameworkCore.Abstractions": "3.1.6",
+          "Microsoft.EntityFrameworkCore.Analyzers": "3.1.6",
+          "Microsoft.Extensions.Caching.Memory": "3.1.6",
+          "Microsoft.Extensions.DependencyInjection": "3.1.6",
+          "Microsoft.Extensions.Logging": "3.1.6",
           "System.Collections.Immutable": "1.7.1",
           "System.ComponentModel.Annotations": "4.7.0",
           "System.Diagnostics.DiagnosticSource": "4.7.1"
@@ -1411,7 +1083,7 @@
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.dll": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Abstractions/3.1.14": {
+      "Microsoft.EntityFrameworkCore.Abstractions/3.1.6": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Abstractions.dll": {}
@@ -1420,7 +1092,7 @@
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Abstractions.dll": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Analyzers/3.1.14": {
+      "Microsoft.EntityFrameworkCore.Analyzers/3.1.6": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/_._": {}
@@ -1429,11 +1101,11 @@
           "lib/netstandard2.0/_._": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Design/3.1.8": {
+      "Microsoft.EntityFrameworkCore.Design/3.1.6": {
         "type": "package",
         "dependencies": {
           "Microsoft.CSharp": "4.7.0",
-          "Microsoft.EntityFrameworkCore.Relational": "3.1.8"
+          "Microsoft.EntityFrameworkCore.Relational": "3.1.6"
         },
         "compile": {
           "lib/netstandard2.0/_._": {}
@@ -1445,10 +1117,10 @@
           "build/net461/Microsoft.EntityFrameworkCore.Design.props": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Relational/3.1.8": {
+      "Microsoft.EntityFrameworkCore.Relational/3.1.6": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore": "3.1.8"
+          "Microsoft.EntityFrameworkCore": "3.1.6"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Relational.dll": {}
@@ -1457,11 +1129,11 @@
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Relational.dll": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.SqlServer/3.1.8": {
+      "Microsoft.EntityFrameworkCore.SqlServer/3.1.6": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Data.SqlClient": "1.1.3",
-          "Microsoft.EntityFrameworkCore.Relational": "3.1.8"
+          "Microsoft.Data.SqlClient": "1.0.19269.1",
+          "Microsoft.EntityFrameworkCore.Relational": "3.1.6"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.SqlServer.dll": {}
@@ -1470,10 +1142,10 @@
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.SqlServer.dll": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Tools/3.1.8": {
+      "Microsoft.EntityFrameworkCore.Tools/3.1.6": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.Design": "3.1.8"
+          "Microsoft.EntityFrameworkCore.Design": "3.1.6"
         },
         "compile": {
           "lib/netstandard2.0/_._": {}
@@ -1482,10 +1154,10 @@
           "lib/netstandard2.0/_._": {}
         }
       },
-      "Microsoft.Extensions.Caching.Abstractions/3.1.14": {
+      "Microsoft.Extensions.Caching.Abstractions/3.1.6": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Primitives": "3.1.14"
+          "Microsoft.Extensions.Primitives": "3.1.6"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.Caching.Abstractions.dll": {}
@@ -1494,13 +1166,13 @@
           "lib/netstandard2.0/Microsoft.Extensions.Caching.Abstractions.dll": {}
         }
       },
-      "Microsoft.Extensions.Caching.Memory/3.1.14": {
+      "Microsoft.Extensions.Caching.Memory/3.1.6": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Caching.Abstractions": "3.1.14",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.14",
-          "Microsoft.Extensions.Logging.Abstractions": "3.1.14",
-          "Microsoft.Extensions.Options": "3.1.14"
+          "Microsoft.Extensions.Caching.Abstractions": "3.1.6",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.6",
+          "Microsoft.Extensions.Logging.Abstractions": "3.1.6",
+          "Microsoft.Extensions.Options": "3.1.6"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.Caching.Memory.dll": {}
@@ -1509,10 +1181,10 @@
           "lib/netstandard2.0/Microsoft.Extensions.Caching.Memory.dll": {}
         }
       },
-      "Microsoft.Extensions.Configuration/3.1.8": {
+      "Microsoft.Extensions.Configuration/3.1.6": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Configuration.Abstractions": "3.1.8"
+          "Microsoft.Extensions.Configuration.Abstractions": "3.1.6"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll": {}
@@ -1521,10 +1193,10 @@
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll": {}
         }
       },
-      "Microsoft.Extensions.Configuration.Abstractions/3.1.8": {
+      "Microsoft.Extensions.Configuration.Abstractions/3.1.6": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Primitives": "3.1.8"
+          "Microsoft.Extensions.Primitives": "3.1.6"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {}
@@ -1533,10 +1205,10 @@
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {}
         }
       },
-      "Microsoft.Extensions.Configuration.Binder/3.1.8": {
+      "Microsoft.Extensions.Configuration.Binder/3.1.6": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Configuration": "3.1.8"
+          "Microsoft.Extensions.Configuration": "3.1.6"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.Binder.dll": {}
@@ -1545,11 +1217,11 @@
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.Binder.dll": {}
         }
       },
-      "Microsoft.Extensions.DependencyInjection/3.1.14": {
+      "Microsoft.Extensions.DependencyInjection/3.1.6": {
         "type": "package",
         "dependencies": {
           "Microsoft.Bcl.AsyncInterfaces": "1.1.1",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.14"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.6"
         },
         "compile": {
           "lib/net461/Microsoft.Extensions.DependencyInjection.dll": {}
@@ -1558,7 +1230,7 @@
           "lib/net461/Microsoft.Extensions.DependencyInjection.dll": {}
         }
       },
-      "Microsoft.Extensions.DependencyInjection.Abstractions/3.1.14": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions/3.1.6": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
@@ -1567,13 +1239,13 @@
           "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
         }
       },
-      "Microsoft.Extensions.Logging/3.1.8": {
+      "Microsoft.Extensions.Logging/3.1.6": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Configuration.Binder": "3.1.8",
-          "Microsoft.Extensions.DependencyInjection": "3.1.8",
-          "Microsoft.Extensions.Logging.Abstractions": "3.1.8",
-          "Microsoft.Extensions.Options": "3.1.8"
+          "Microsoft.Extensions.Configuration.Binder": "3.1.6",
+          "Microsoft.Extensions.DependencyInjection": "3.1.6",
+          "Microsoft.Extensions.Logging.Abstractions": "3.1.6",
+          "Microsoft.Extensions.Options": "3.1.6"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.Logging.dll": {}
@@ -1582,7 +1254,7 @@
           "lib/netstandard2.0/Microsoft.Extensions.Logging.dll": {}
         }
       },
-      "Microsoft.Extensions.Logging.Abstractions/3.1.14": {
+      "Microsoft.Extensions.Logging.Abstractions/3.1.6": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {}
@@ -1591,50 +1263,11 @@
           "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {}
         }
       },
-      "Microsoft.Extensions.Logging.Configuration/3.1.8": {
+      "Microsoft.Extensions.Options/3.1.6": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Logging": "3.1.8",
-          "Microsoft.Extensions.Options.ConfigurationExtensions": "3.1.8"
-        },
-        "compile": {
-          "lib/netstandard2.0/Microsoft.Extensions.Logging.Configuration.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Microsoft.Extensions.Logging.Configuration.dll": {}
-        }
-      },
-      "Microsoft.Extensions.Logging.Console/3.1.8": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.Configuration.Abstractions": "3.1.8",
-          "Microsoft.Extensions.Logging": "3.1.8",
-          "Microsoft.Extensions.Logging.Configuration": "3.1.8"
-        },
-        "compile": {
-          "lib/netstandard2.0/Microsoft.Extensions.Logging.Console.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Microsoft.Extensions.Logging.Console.dll": {}
-        }
-      },
-      "Microsoft.Extensions.Logging.Debug/3.1.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.Logging": "3.1.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/Microsoft.Extensions.Logging.Debug.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Microsoft.Extensions.Logging.Debug.dll": {}
-        }
-      },
-      "Microsoft.Extensions.Options/3.1.14": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.14",
-          "Microsoft.Extensions.Primitives": "3.1.14",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.6",
+          "Microsoft.Extensions.Primitives": "3.1.6",
           "System.ComponentModel.Annotations": "4.7.0"
         },
         "compile": {
@@ -1644,22 +1277,7 @@
           "lib/netstandard2.0/Microsoft.Extensions.Options.dll": {}
         }
       },
-      "Microsoft.Extensions.Options.ConfigurationExtensions/3.1.8": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.Configuration.Abstractions": "3.1.8",
-          "Microsoft.Extensions.Configuration.Binder": "3.1.8",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.8",
-          "Microsoft.Extensions.Options": "3.1.8"
-        },
-        "compile": {
-          "lib/netstandard2.0/Microsoft.Extensions.Options.ConfigurationExtensions.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Microsoft.Extensions.Options.ConfigurationExtensions.dll": {}
-        }
-      },
-      "Microsoft.Extensions.Primitives/3.1.14": {
+      "Microsoft.Extensions.Primitives/3.1.6": {
         "type": "package",
         "dependencies": {
           "System.Memory": "4.5.2",
@@ -1692,96 +1310,6 @@
         },
         "runtime": {
           "lib/net45/Microsoft.Identity.Client.dll": {}
-        }
-      },
-      "Microsoft.IdentityModel.JsonWebTokens/5.5.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.IdentityModel.Tokens": "5.5.0",
-          "Newtonsoft.Json": "10.0.1"
-        },
-        "frameworkAssemblies": [
-          "Microsoft.CSharp"
-        ],
-        "compile": {
-          "lib/net461/Microsoft.IdentityModel.JsonWebTokens.dll": {}
-        },
-        "runtime": {
-          "lib/net461/Microsoft.IdentityModel.JsonWebTokens.dll": {}
-        }
-      },
-      "Microsoft.IdentityModel.Logging/5.5.0": {
-        "type": "package",
-        "frameworkAssemblies": [
-          "Microsoft.CSharp"
-        ],
-        "compile": {
-          "lib/net461/Microsoft.IdentityModel.Logging.dll": {}
-        },
-        "runtime": {
-          "lib/net461/Microsoft.IdentityModel.Logging.dll": {}
-        }
-      },
-      "Microsoft.IdentityModel.Protocols/5.5.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.IdentityModel.Logging": "5.5.0",
-          "Microsoft.IdentityModel.Tokens": "5.5.0"
-        },
-        "frameworkAssemblies": [
-          "Microsoft.CSharp",
-          "System.Net.Http"
-        ],
-        "compile": {
-          "lib/net461/Microsoft.IdentityModel.Protocols.dll": {}
-        },
-        "runtime": {
-          "lib/net461/Microsoft.IdentityModel.Protocols.dll": {}
-        }
-      },
-      "Microsoft.IdentityModel.Protocols.OpenIdConnect/5.5.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.IdentityModel.Protocols": "5.5.0",
-          "Newtonsoft.Json": "10.0.1",
-          "System.IdentityModel.Tokens.Jwt": "5.5.0"
-        },
-        "frameworkAssemblies": [
-          "Microsoft.CSharp",
-          "System.Net.Http"
-        ],
-        "compile": {
-          "lib/net461/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll": {}
-        },
-        "runtime": {
-          "lib/net461/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll": {}
-        }
-      },
-      "Microsoft.IdentityModel.Tokens/5.5.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.IdentityModel.Logging": "5.5.0",
-          "Newtonsoft.Json": "10.0.1"
-        },
-        "frameworkAssemblies": [
-          "Microsoft.CSharp",
-          "System",
-          "System.Core"
-        ],
-        "compile": {
-          "lib/net461/Microsoft.IdentityModel.Tokens.dll": {}
-        },
-        "runtime": {
-          "lib/net461/Microsoft.IdentityModel.Tokens.dll": {}
-        }
-      },
-      "Newtonsoft.Json/10.0.1": {
-        "type": "package",
-        "compile": {
-          "lib/net45/Newtonsoft.Json.dll": {}
-        },
-        "runtime": {
-          "lib/net45/Newtonsoft.Json.dll": {}
         }
       },
       "System.Buffers/4.5.1": {
@@ -1853,23 +1381,6 @@
         },
         "runtime": {
           "lib/net46/System.Diagnostics.DiagnosticSource.dll": {}
-        }
-      },
-      "System.IdentityModel.Tokens.Jwt/5.5.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.IdentityModel.JsonWebTokens": "5.5.0",
-          "Microsoft.IdentityModel.Tokens": "5.5.0",
-          "Newtonsoft.Json": "10.0.1"
-        },
-        "frameworkAssemblies": [
-          "Microsoft.CSharp"
-        ],
-        "compile": {
-          "lib/net461/System.IdentityModel.Tokens.Jwt.dll": {}
-        },
-        "runtime": {
-          "lib/net461/System.IdentityModel.Tokens.Jwt.dll": {}
         }
       },
       "System.Memory/4.5.4": {
@@ -1947,7 +1458,7 @@
           "lib/net461/Microsoft.Bcl.AsyncInterfaces.dll": {}
         }
       },
-      "Microsoft.Bcl.HashCode/1.1.1": {
+      "Microsoft.Bcl.HashCode/1.1.0": {
         "type": "package",
         "frameworkAssemblies": [
           "System",
@@ -1972,13 +1483,11 @@
           "lib/net45/_._": {}
         }
       },
-      "Microsoft.Data.SqlClient/1.1.3": {
+      "Microsoft.Data.SqlClient/1.0.19269.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Data.SqlClient.sni": "[1.1.0, 1.2.0)",
+          "Microsoft.Data.SqlClient.sni": "1.0.19235.1",
           "Microsoft.Identity.Client": "3.0.8",
-          "Microsoft.IdentityModel.JsonWebTokens": "5.5.0",
-          "Microsoft.IdentityModel.Protocols.OpenIdConnect": "5.5.0",
           "System.Data.Common": "4.3.0"
         },
         "frameworkAssemblies": [
@@ -2024,22 +1533,22 @@
           }
         }
       },
-      "Microsoft.Data.SqlClient.SNI/1.1.0": {
+      "Microsoft.Data.SqlClient.SNI/1.0.19235.1": {
         "type": "package",
         "build": {
           "buildTransitive/net46/Microsoft.Data.SqlClient.SNI.targets": {}
         }
       },
-      "Microsoft.EntityFrameworkCore/3.1.14": {
+      "Microsoft.EntityFrameworkCore/3.1.6": {
         "type": "package",
         "dependencies": {
           "Microsoft.Bcl.AsyncInterfaces": "1.1.1",
-          "Microsoft.Bcl.HashCode": "1.1.1",
-          "Microsoft.EntityFrameworkCore.Abstractions": "3.1.14",
-          "Microsoft.EntityFrameworkCore.Analyzers": "3.1.14",
-          "Microsoft.Extensions.Caching.Memory": "3.1.14",
-          "Microsoft.Extensions.DependencyInjection": "3.1.14",
-          "Microsoft.Extensions.Logging": "3.1.14",
+          "Microsoft.Bcl.HashCode": "1.1.0",
+          "Microsoft.EntityFrameworkCore.Abstractions": "3.1.6",
+          "Microsoft.EntityFrameworkCore.Analyzers": "3.1.6",
+          "Microsoft.Extensions.Caching.Memory": "3.1.6",
+          "Microsoft.Extensions.DependencyInjection": "3.1.6",
+          "Microsoft.Extensions.Logging": "3.1.6",
           "System.Collections.Immutable": "1.7.1",
           "System.ComponentModel.Annotations": "4.7.0",
           "System.Diagnostics.DiagnosticSource": "4.7.1"
@@ -2051,7 +1560,7 @@
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.dll": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Abstractions/3.1.14": {
+      "Microsoft.EntityFrameworkCore.Abstractions/3.1.6": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Abstractions.dll": {}
@@ -2060,7 +1569,7 @@
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Abstractions.dll": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Analyzers/3.1.14": {
+      "Microsoft.EntityFrameworkCore.Analyzers/3.1.6": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/_._": {}
@@ -2069,11 +1578,11 @@
           "lib/netstandard2.0/_._": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Design/3.1.8": {
+      "Microsoft.EntityFrameworkCore.Design/3.1.6": {
         "type": "package",
         "dependencies": {
           "Microsoft.CSharp": "4.7.0",
-          "Microsoft.EntityFrameworkCore.Relational": "3.1.8"
+          "Microsoft.EntityFrameworkCore.Relational": "3.1.6"
         },
         "compile": {
           "lib/netstandard2.0/_._": {}
@@ -2085,10 +1594,10 @@
           "build/net461/Microsoft.EntityFrameworkCore.Design.props": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Relational/3.1.8": {
+      "Microsoft.EntityFrameworkCore.Relational/3.1.6": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore": "3.1.8"
+          "Microsoft.EntityFrameworkCore": "3.1.6"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Relational.dll": {}
@@ -2097,11 +1606,11 @@
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Relational.dll": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.SqlServer/3.1.8": {
+      "Microsoft.EntityFrameworkCore.SqlServer/3.1.6": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Data.SqlClient": "1.1.3",
-          "Microsoft.EntityFrameworkCore.Relational": "3.1.8"
+          "Microsoft.Data.SqlClient": "1.0.19269.1",
+          "Microsoft.EntityFrameworkCore.Relational": "3.1.6"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.SqlServer.dll": {}
@@ -2110,10 +1619,10 @@
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.SqlServer.dll": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Tools/3.1.8": {
+      "Microsoft.EntityFrameworkCore.Tools/3.1.6": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.Design": "3.1.8"
+          "Microsoft.EntityFrameworkCore.Design": "3.1.6"
         },
         "compile": {
           "lib/netstandard2.0/_._": {}
@@ -2122,10 +1631,10 @@
           "lib/netstandard2.0/_._": {}
         }
       },
-      "Microsoft.Extensions.Caching.Abstractions/3.1.14": {
+      "Microsoft.Extensions.Caching.Abstractions/3.1.6": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Primitives": "3.1.14"
+          "Microsoft.Extensions.Primitives": "3.1.6"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.Caching.Abstractions.dll": {}
@@ -2134,13 +1643,13 @@
           "lib/netstandard2.0/Microsoft.Extensions.Caching.Abstractions.dll": {}
         }
       },
-      "Microsoft.Extensions.Caching.Memory/3.1.14": {
+      "Microsoft.Extensions.Caching.Memory/3.1.6": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Caching.Abstractions": "3.1.14",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.14",
-          "Microsoft.Extensions.Logging.Abstractions": "3.1.14",
-          "Microsoft.Extensions.Options": "3.1.14"
+          "Microsoft.Extensions.Caching.Abstractions": "3.1.6",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.6",
+          "Microsoft.Extensions.Logging.Abstractions": "3.1.6",
+          "Microsoft.Extensions.Options": "3.1.6"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.Caching.Memory.dll": {}
@@ -2149,10 +1658,10 @@
           "lib/netstandard2.0/Microsoft.Extensions.Caching.Memory.dll": {}
         }
       },
-      "Microsoft.Extensions.Configuration/3.1.8": {
+      "Microsoft.Extensions.Configuration/3.1.6": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Configuration.Abstractions": "3.1.8"
+          "Microsoft.Extensions.Configuration.Abstractions": "3.1.6"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll": {}
@@ -2161,10 +1670,10 @@
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll": {}
         }
       },
-      "Microsoft.Extensions.Configuration.Abstractions/3.1.8": {
+      "Microsoft.Extensions.Configuration.Abstractions/3.1.6": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Primitives": "3.1.8"
+          "Microsoft.Extensions.Primitives": "3.1.6"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {}
@@ -2173,10 +1682,10 @@
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {}
         }
       },
-      "Microsoft.Extensions.Configuration.Binder/3.1.8": {
+      "Microsoft.Extensions.Configuration.Binder/3.1.6": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Configuration": "3.1.8"
+          "Microsoft.Extensions.Configuration": "3.1.6"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.Binder.dll": {}
@@ -2185,11 +1694,11 @@
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.Binder.dll": {}
         }
       },
-      "Microsoft.Extensions.DependencyInjection/3.1.14": {
+      "Microsoft.Extensions.DependencyInjection/3.1.6": {
         "type": "package",
         "dependencies": {
           "Microsoft.Bcl.AsyncInterfaces": "1.1.1",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.14"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.6"
         },
         "compile": {
           "lib/net461/Microsoft.Extensions.DependencyInjection.dll": {}
@@ -2198,7 +1707,7 @@
           "lib/net461/Microsoft.Extensions.DependencyInjection.dll": {}
         }
       },
-      "Microsoft.Extensions.DependencyInjection.Abstractions/3.1.14": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions/3.1.6": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
@@ -2207,13 +1716,13 @@
           "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
         }
       },
-      "Microsoft.Extensions.Logging/3.1.8": {
+      "Microsoft.Extensions.Logging/3.1.6": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Configuration.Binder": "3.1.8",
-          "Microsoft.Extensions.DependencyInjection": "3.1.8",
-          "Microsoft.Extensions.Logging.Abstractions": "3.1.8",
-          "Microsoft.Extensions.Options": "3.1.8"
+          "Microsoft.Extensions.Configuration.Binder": "3.1.6",
+          "Microsoft.Extensions.DependencyInjection": "3.1.6",
+          "Microsoft.Extensions.Logging.Abstractions": "3.1.6",
+          "Microsoft.Extensions.Options": "3.1.6"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.Logging.dll": {}
@@ -2222,7 +1731,7 @@
           "lib/netstandard2.0/Microsoft.Extensions.Logging.dll": {}
         }
       },
-      "Microsoft.Extensions.Logging.Abstractions/3.1.14": {
+      "Microsoft.Extensions.Logging.Abstractions/3.1.6": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {}
@@ -2231,50 +1740,11 @@
           "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {}
         }
       },
-      "Microsoft.Extensions.Logging.Configuration/3.1.8": {
+      "Microsoft.Extensions.Options/3.1.6": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Logging": "3.1.8",
-          "Microsoft.Extensions.Options.ConfigurationExtensions": "3.1.8"
-        },
-        "compile": {
-          "lib/netstandard2.0/Microsoft.Extensions.Logging.Configuration.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Microsoft.Extensions.Logging.Configuration.dll": {}
-        }
-      },
-      "Microsoft.Extensions.Logging.Console/3.1.8": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.Configuration.Abstractions": "3.1.8",
-          "Microsoft.Extensions.Logging": "3.1.8",
-          "Microsoft.Extensions.Logging.Configuration": "3.1.8"
-        },
-        "compile": {
-          "lib/netstandard2.0/Microsoft.Extensions.Logging.Console.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Microsoft.Extensions.Logging.Console.dll": {}
-        }
-      },
-      "Microsoft.Extensions.Logging.Debug/3.1.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.Logging": "3.1.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/Microsoft.Extensions.Logging.Debug.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Microsoft.Extensions.Logging.Debug.dll": {}
-        }
-      },
-      "Microsoft.Extensions.Options/3.1.14": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.14",
-          "Microsoft.Extensions.Primitives": "3.1.14",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.6",
+          "Microsoft.Extensions.Primitives": "3.1.6",
           "System.ComponentModel.Annotations": "4.7.0"
         },
         "compile": {
@@ -2284,22 +1754,7 @@
           "lib/netstandard2.0/Microsoft.Extensions.Options.dll": {}
         }
       },
-      "Microsoft.Extensions.Options.ConfigurationExtensions/3.1.8": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.Configuration.Abstractions": "3.1.8",
-          "Microsoft.Extensions.Configuration.Binder": "3.1.8",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.8",
-          "Microsoft.Extensions.Options": "3.1.8"
-        },
-        "compile": {
-          "lib/netstandard2.0/Microsoft.Extensions.Options.ConfigurationExtensions.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Microsoft.Extensions.Options.ConfigurationExtensions.dll": {}
-        }
-      },
-      "Microsoft.Extensions.Primitives/3.1.14": {
+      "Microsoft.Extensions.Primitives/3.1.6": {
         "type": "package",
         "dependencies": {
           "System.Memory": "4.5.2",
@@ -2332,96 +1787,6 @@
         },
         "runtime": {
           "lib/net45/Microsoft.Identity.Client.dll": {}
-        }
-      },
-      "Microsoft.IdentityModel.JsonWebTokens/5.5.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.IdentityModel.Tokens": "5.5.0",
-          "Newtonsoft.Json": "10.0.1"
-        },
-        "frameworkAssemblies": [
-          "Microsoft.CSharp"
-        ],
-        "compile": {
-          "lib/net461/Microsoft.IdentityModel.JsonWebTokens.dll": {}
-        },
-        "runtime": {
-          "lib/net461/Microsoft.IdentityModel.JsonWebTokens.dll": {}
-        }
-      },
-      "Microsoft.IdentityModel.Logging/5.5.0": {
-        "type": "package",
-        "frameworkAssemblies": [
-          "Microsoft.CSharp"
-        ],
-        "compile": {
-          "lib/net461/Microsoft.IdentityModel.Logging.dll": {}
-        },
-        "runtime": {
-          "lib/net461/Microsoft.IdentityModel.Logging.dll": {}
-        }
-      },
-      "Microsoft.IdentityModel.Protocols/5.5.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.IdentityModel.Logging": "5.5.0",
-          "Microsoft.IdentityModel.Tokens": "5.5.0"
-        },
-        "frameworkAssemblies": [
-          "Microsoft.CSharp",
-          "System.Net.Http"
-        ],
-        "compile": {
-          "lib/net461/Microsoft.IdentityModel.Protocols.dll": {}
-        },
-        "runtime": {
-          "lib/net461/Microsoft.IdentityModel.Protocols.dll": {}
-        }
-      },
-      "Microsoft.IdentityModel.Protocols.OpenIdConnect/5.5.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.IdentityModel.Protocols": "5.5.0",
-          "Newtonsoft.Json": "10.0.1",
-          "System.IdentityModel.Tokens.Jwt": "5.5.0"
-        },
-        "frameworkAssemblies": [
-          "Microsoft.CSharp",
-          "System.Net.Http"
-        ],
-        "compile": {
-          "lib/net461/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll": {}
-        },
-        "runtime": {
-          "lib/net461/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll": {}
-        }
-      },
-      "Microsoft.IdentityModel.Tokens/5.5.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.IdentityModel.Logging": "5.5.0",
-          "Newtonsoft.Json": "10.0.1"
-        },
-        "frameworkAssemblies": [
-          "Microsoft.CSharp",
-          "System",
-          "System.Core"
-        ],
-        "compile": {
-          "lib/net461/Microsoft.IdentityModel.Tokens.dll": {}
-        },
-        "runtime": {
-          "lib/net461/Microsoft.IdentityModel.Tokens.dll": {}
-        }
-      },
-      "Newtonsoft.Json/10.0.1": {
-        "type": "package",
-        "compile": {
-          "lib/net45/Newtonsoft.Json.dll": {}
-        },
-        "runtime": {
-          "lib/net45/Newtonsoft.Json.dll": {}
         }
       },
       "System.Buffers/4.5.1": {
@@ -2493,23 +1858,6 @@
         },
         "runtime": {
           "lib/net46/System.Diagnostics.DiagnosticSource.dll": {}
-        }
-      },
-      "System.IdentityModel.Tokens.Jwt/5.5.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.IdentityModel.JsonWebTokens": "5.5.0",
-          "Microsoft.IdentityModel.Tokens": "5.5.0",
-          "Newtonsoft.Json": "10.0.1"
-        },
-        "frameworkAssemblies": [
-          "Microsoft.CSharp"
-        ],
-        "compile": {
-          "lib/net461/System.IdentityModel.Tokens.Jwt.dll": {}
-        },
-        "runtime": {
-          "lib/net461/System.IdentityModel.Tokens.Jwt.dll": {}
         }
       },
       "System.Memory/4.5.4": {
@@ -2598,14 +1946,13 @@
         "version.txt"
       ]
     },
-    "Microsoft.Bcl.HashCode/1.1.1": {
-      "sha512": "MalY0Y/uM/LjXtHfX/26l2VtN4LDNZ2OE3aumNOHDLsT4fNYy2hiHXI4CXCqKpNUNm7iJ2brrc4J89UdaL56FA==",
+    "Microsoft.Bcl.HashCode/1.1.0": {
+      "sha512": "J2G1k+u5unBV+aYcwxo94ip16Rkp65pgWFb0R6zwJipzWNMgvqlWeuI7/+R+e8bob66LnSG+llLJ+z8wI94cHg==",
       "type": "package",
-      "path": "microsoft.bcl.hashcode/1.1.1",
+      "path": "microsoft.bcl.hashcode/1.1.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "Icon.png",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "lib/net461/Microsoft.Bcl.HashCode.dll",
@@ -2616,7 +1963,7 @@
         "lib/netstandard2.0/Microsoft.Bcl.HashCode.xml",
         "lib/netstandard2.1/Microsoft.Bcl.HashCode.dll",
         "lib/netstandard2.1/Microsoft.Bcl.HashCode.xml",
-        "microsoft.bcl.hashcode.1.1.1.nupkg.sha512",
+        "microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
         "microsoft.bcl.hashcode.nuspec",
         "ref/net461/Microsoft.Bcl.HashCode.dll",
         "ref/netcoreapp2.1/Microsoft.Bcl.HashCode.dll",
@@ -2695,17 +2042,15 @@
         "version.txt"
       ]
     },
-    "Microsoft.Data.SqlClient/1.1.3": {
-      "sha512": "KOT5AoOXIQCF98y+ynMLMaemS05RebDconYlCtqdFGbcpviW+S2/wXhrDNPtZ3MWeB+6ej3t4CrzykRGQKk9gA==",
+    "Microsoft.Data.SqlClient/1.0.19269.1": {
+      "sha512": "p2xa+sUAt7IRNxCl8ZT77bd7qHVKookDJ4HDUc+ArWkFk204rIpFhHajCTQqomSbcYi+olwheqQrwr+ohGRmJw==",
       "type": "package",
-      "path": "microsoft.data.sqlclient/1.1.3",
+      "path": "microsoft.data.sqlclient/1.0.19269.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "dotnet.png",
         "lib/net46/Microsoft.Data.SqlClient.dll",
         "lib/net46/Microsoft.Data.SqlClient.pdb",
-        "lib/net46/Microsoft.Data.SqlClient.xml",
         "lib/net46/de/Microsoft.Data.SqlClient.resources.dll",
         "lib/net46/es/Microsoft.Data.SqlClient.resources.dll",
         "lib/net46/fr/Microsoft.Data.SqlClient.resources.dll",
@@ -2718,21 +2063,16 @@
         "lib/net46/zh-Hant/Microsoft.Data.SqlClient.resources.dll",
         "lib/netcoreapp2.1/Microsoft.Data.SqlClient.dll",
         "lib/netcoreapp2.1/Microsoft.Data.SqlClient.pdb",
-        "lib/netcoreapp2.1/Microsoft.Data.SqlClient.xml",
         "lib/netstandard2.0/Microsoft.Data.SqlClient.dll",
         "lib/netstandard2.0/Microsoft.Data.SqlClient.pdb",
-        "lib/netstandard2.0/Microsoft.Data.SqlClient.xml",
-        "microsoft.data.sqlclient.1.1.3.nupkg.sha512",
+        "microsoft.data.sqlclient.1.0.19269.1.nupkg.sha512",
         "microsoft.data.sqlclient.nuspec",
         "ref/net46/Microsoft.Data.SqlClient.dll",
         "ref/net46/Microsoft.Data.SqlClient.pdb",
-        "ref/net46/Microsoft.Data.SqlClient.xml",
         "ref/netcoreapp2.1/Microsoft.Data.SqlClient.dll",
         "ref/netcoreapp2.1/Microsoft.Data.SqlClient.pdb",
-        "ref/netcoreapp2.1/Microsoft.Data.SqlClient.xml",
         "ref/netstandard2.0/Microsoft.Data.SqlClient.dll",
         "ref/netstandard2.0/Microsoft.Data.SqlClient.pdb",
-        "ref/netstandard2.0/Microsoft.Data.SqlClient.xml",
         "runtimes/unix/lib/netcoreapp2.1/Microsoft.Data.SqlClient.dll",
         "runtimes/unix/lib/netcoreapp2.1/Microsoft.Data.SqlClient.pdb",
         "runtimes/unix/lib/netstandard2.0/Microsoft.Data.SqlClient.dll",
@@ -2745,10 +2085,10 @@
         "runtimes/win/lib/netstandard2.0/Microsoft.Data.SqlClient.pdb"
       ]
     },
-    "Microsoft.Data.SqlClient.SNI/1.1.0": {
-      "sha512": "tyznPtuZ9c9p33pjiyBset/9jAuF7Ix/Xar/3EleGCyQ8YBYVoEdwiCcZJ12UyF0FwFHWFFLsHuta9KY4lLi+w==",
+    "Microsoft.Data.SqlClient.SNI/1.0.19235.1": {
+      "sha512": "biOkgtg/RnOmCjQC68SKioajouv0QD2CaGPpUKv1ltMwv0n5bqRPWx3LcZHvx1mZOb3rwLU/744QhyFh6+0LZQ==",
       "type": "package",
-      "path": "microsoft.data.sqlclient.sni/1.1.0",
+      "path": "microsoft.data.sqlclient.sni/1.0.19235.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2763,56 +2103,56 @@
         "buildTransitive/net46/x64/SNI.pdb",
         "buildTransitive/net46/x86/SNI.dll",
         "buildTransitive/net46/x86/SNI.pdb",
-        "microsoft.data.sqlclient.sni.1.1.0.nupkg.sha512",
+        "microsoft.data.sqlclient.sni.1.0.19235.1.nupkg.sha512",
         "microsoft.data.sqlclient.sni.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore/3.1.14": {
-      "sha512": "scyR0k8hJ8gR2xmXM7mS5eXyXKTVBNbgVIq+TsURqGXuCQP6KAYxuz0+OScFHBRCkBdb/2fynf0JG/D4UGudxw==",
+    "Microsoft.EntityFrameworkCore/3.1.6": {
+      "sha512": "aVZkLXdkh2l+uo/wQnMpf8dQNwbH/OFTt+7lm3wGNol3c4GBe8hONl20c2nITvR2Uz8o6PRcgn9IQaro3Bw4uA==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore/3.1.14",
+      "path": "microsoft.entityframeworkcore/3.1.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "lib/netstandard2.0/Microsoft.EntityFrameworkCore.dll",
         "lib/netstandard2.0/Microsoft.EntityFrameworkCore.xml",
-        "microsoft.entityframeworkcore.3.1.14.nupkg.sha512",
+        "microsoft.entityframeworkcore.3.1.6.nupkg.sha512",
         "microsoft.entityframeworkcore.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Abstractions/3.1.14": {
-      "sha512": "xXArI4pGAB8dc0tIYNfbqKz+9ZpELjF4+2Jcy48nd5IiRVxYpgT9c0+46rFHwAq/GryaTGUOQ0hkJHqkd+jN5Q==",
+    "Microsoft.EntityFrameworkCore.Abstractions/3.1.6": {
+      "sha512": "/0KbwRa+ct3gm2XtU8aB985mfb4sCCo1JEPxATfonyP7wWKlqlCZ0UCbd1x8kRCvS/FE31EYz7fVCh+RwE2gKQ==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.abstractions/3.1.14",
+      "path": "microsoft.entityframeworkcore.abstractions/3.1.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Abstractions.dll",
         "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Abstractions.xml",
-        "microsoft.entityframeworkcore.abstractions.3.1.14.nupkg.sha512",
+        "microsoft.entityframeworkcore.abstractions.3.1.6.nupkg.sha512",
         "microsoft.entityframeworkcore.abstractions.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Analyzers/3.1.14": {
-      "sha512": "xJwZ+Pzqk6M+EIaKq8E+n0kJsq2iwcD1v2bYHgLI/egqBW4ytpqCjDRcYLqrsExX5isotaOR9KvHECOBjc838w==",
+    "Microsoft.EntityFrameworkCore.Analyzers/3.1.6": {
+      "sha512": "jMT1DW9fywG6VUeQM/yvHM7cp0s/KMdKW4nkgcy138lu2+3dhKtJiib9GziDn5JiuuutDtXqAvedaZCOcbEhnQ==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.analyzers/3.1.14",
+      "path": "microsoft.entityframeworkcore.analyzers/3.1.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "analyzers/dotnet/cs/Microsoft.EntityFrameworkCore.Analyzers.dll",
         "lib/netstandard2.0/_._",
-        "microsoft.entityframeworkcore.analyzers.3.1.14.nupkg.sha512",
+        "microsoft.entityframeworkcore.analyzers.3.1.6.nupkg.sha512",
         "microsoft.entityframeworkcore.analyzers.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Design/3.1.8": {
-      "sha512": "nFsL0L2CdadJ9dmSsmYlDZ1dFWQEr9zCWZ+oI4OOLtoS7gU2XPZiEhtvipAFzfSadx3XkteX/4fgdbM7wTub9A==",
+    "Microsoft.EntityFrameworkCore.Design/3.1.6": {
+      "sha512": "ji+fRRy6WpH9B1JRTTVSdIHSqHPMFD/ghmlbOENXa2pxyujEAno8Gtn6dDXl5UJbptCInzqoOpTl3W9etQKIMA==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.design/3.1.8",
+      "path": "microsoft.entityframeworkcore.design/3.1.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2821,49 +2161,49 @@
         "build/netcoreapp2.0/Microsoft.EntityFrameworkCore.Design.props",
         "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Design.dll",
         "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Design.xml",
-        "microsoft.entityframeworkcore.design.3.1.8.nupkg.sha512",
+        "microsoft.entityframeworkcore.design.3.1.6.nupkg.sha512",
         "microsoft.entityframeworkcore.design.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Relational/3.1.8": {
-      "sha512": "n8c2Nyfyl0AKXdM++tiKZmX/jeiu1Uv+uxZAHGgKuiQJbpOCPAhjRB4tHLdo1jOvfkhJT9K6wekf9VaXjtL1tw==",
+    "Microsoft.EntityFrameworkCore.Relational/3.1.6": {
+      "sha512": "HDUAQzGplNfK3J9cUMn6kOeFZvWizYOp4ScqZ5R6TpmHxLR6TAzGItqa+5T0v+Nh5gQpRGOrSjyHk3EJJH4fvQ==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.relational/3.1.8",
+      "path": "microsoft.entityframeworkcore.relational/3.1.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Relational.dll",
         "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Relational.xml",
-        "microsoft.entityframeworkcore.relational.3.1.8.nupkg.sha512",
+        "microsoft.entityframeworkcore.relational.3.1.6.nupkg.sha512",
         "microsoft.entityframeworkcore.relational.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.SqlServer/3.1.8": {
-      "sha512": "rd50s20F84+Fe8dQX+S9RrcLuTlrbVfeZW6DBIRpJHeYtSL1kVvr0Dp0poewrk7n0KMcP6DEauiGr4YCTNqKwg==",
+    "Microsoft.EntityFrameworkCore.SqlServer/3.1.6": {
+      "sha512": "7F683uiFUYLKshVBXuSK+CFWhAeBBR7PJ6DOdu1NOvemrfn06pFtfDCFFCB/k77PH02xXwDwssHcJ9FBfTEBLw==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.sqlserver/3.1.8",
+      "path": "microsoft.entityframeworkcore.sqlserver/3.1.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "lib/netstandard2.0/Microsoft.EntityFrameworkCore.SqlServer.dll",
         "lib/netstandard2.0/Microsoft.EntityFrameworkCore.SqlServer.xml",
-        "microsoft.entityframeworkcore.sqlserver.3.1.8.nupkg.sha512",
+        "microsoft.entityframeworkcore.sqlserver.3.1.6.nupkg.sha512",
         "microsoft.entityframeworkcore.sqlserver.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Tools/3.1.8": {
-      "sha512": "HPvMrOlVVieK4E1DWdGTAzXgoPCyz2rkbnGYBpYaT4X34ml3xrMPQA1JIb5LejBydELBiKnoJq+qsOQ8sxFaCA==",
+    "Microsoft.EntityFrameworkCore.Tools/3.1.6": {
+      "sha512": "Zz0p4p/AXXDna/3AASzvq3ENWE8cMe0/FayxoANCo/Q9d5SxuIsw14LXuv8EG7A6VpxU9g+NLhNYVPUveA8uSA==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.tools/3.1.8",
+      "path": "microsoft.entityframeworkcore.tools/3.1.6",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "lib/netstandard2.0/_._",
-        "microsoft.entityframeworkcore.tools.3.1.8.nupkg.sha512",
+        "microsoft.entityframeworkcore.tools.3.1.6.nupkg.sha512",
         "microsoft.entityframeworkcore.tools.nuspec",
         "tools/EntityFrameworkCore.PS2.psd1",
         "tools/EntityFrameworkCore.PS2.psm1",
@@ -2877,10 +2217,10 @@
         "tools/netcoreapp2.0/any/ef.runtimeconfig.json"
       ]
     },
-    "Microsoft.Extensions.Caching.Abstractions/3.1.14": {
-      "sha512": "2EGyKItPcRYc6JT361pU1sCwnho7uJMhojumvBGYZ4yBR0MUAxgw1FIicJXmPz4m4IfiUALhAACQfgWQns+zDw==",
+    "Microsoft.Extensions.Caching.Abstractions/3.1.6": {
+      "sha512": "kWeicPkk3/9pISki/e08TijBeKYfcEWyoEummcuvYWmTp2UZbke34owzBF8m+nzWZvIV4puIfbUAEm6eOOJypA==",
       "type": "package",
-      "path": "microsoft.extensions.caching.abstractions/3.1.14",
+      "path": "microsoft.extensions.caching.abstractions/3.1.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2889,14 +2229,14 @@
         "lib/netcoreapp3.1/Microsoft.Extensions.Caching.Abstractions.xml",
         "lib/netstandard2.0/Microsoft.Extensions.Caching.Abstractions.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Caching.Abstractions.xml",
-        "microsoft.extensions.caching.abstractions.3.1.14.nupkg.sha512",
+        "microsoft.extensions.caching.abstractions.3.1.6.nupkg.sha512",
         "microsoft.extensions.caching.abstractions.nuspec"
       ]
     },
-    "Microsoft.Extensions.Caching.Memory/3.1.14": {
-      "sha512": "aNOymMs1Cv383KoATchVnnW3/k7zRTGUcI81ktd5UMay5NB+elKVuYB2jG7WZzDYasmRysoWbWL/1s85H8J3gQ==",
+    "Microsoft.Extensions.Caching.Memory/3.1.6": {
+      "sha512": "//6V0iayS6rwssKsZkm7jW472GOntCbYCL1fXXqzUn6Z3ppf+Eop06xuaz1wAyed0y6KtvsQcq7ye3K1CCwNzw==",
       "type": "package",
-      "path": "microsoft.extensions.caching.memory/3.1.14",
+      "path": "microsoft.extensions.caching.memory/3.1.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2905,14 +2245,14 @@
         "lib/netcoreapp3.1/Microsoft.Extensions.Caching.Memory.xml",
         "lib/netstandard2.0/Microsoft.Extensions.Caching.Memory.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Caching.Memory.xml",
-        "microsoft.extensions.caching.memory.3.1.14.nupkg.sha512",
+        "microsoft.extensions.caching.memory.3.1.6.nupkg.sha512",
         "microsoft.extensions.caching.memory.nuspec"
       ]
     },
-    "Microsoft.Extensions.Configuration/3.1.8": {
-      "sha512": "xWvtu/ra8xDOy62ZXzQj1ElmmH3GpZBSKvw4LbfNXKCy+PaziS5Uh0gQ47D4H4w3u+PJfhNWCCGCp9ORNEzkRw==",
+    "Microsoft.Extensions.Configuration/3.1.6": {
+      "sha512": "gphCAywKC+ye1XdL+8Nv2Pd5b1Fn2yx7DekB4GQPCKaPyK94T9Tb+Sfk/iNdaDKtDl4vwidMI0w2AnoXtvofsw==",
       "type": "package",
-      "path": "microsoft.extensions.configuration/3.1.8",
+      "path": "microsoft.extensions.configuration/3.1.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2921,14 +2261,14 @@
         "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.xml",
         "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Configuration.xml",
-        "microsoft.extensions.configuration.3.1.8.nupkg.sha512",
+        "microsoft.extensions.configuration.3.1.6.nupkg.sha512",
         "microsoft.extensions.configuration.nuspec"
       ]
     },
-    "Microsoft.Extensions.Configuration.Abstractions/3.1.8": {
-      "sha512": "0qbNyxGpuNP/fuQ3FLHesm1Vn/83qYcAgVsi1UQCQN1peY4YH1uiizOh4xbYkQyxiVMD/c/zhiYYv94G0DXSSA==",
+    "Microsoft.Extensions.Configuration.Abstractions/3.1.6": {
+      "sha512": "Z7QAA7XFvYuGZCKsfzetdIq0Vj1ngiIzCBBqerlQMhewx1ZFLXHuvKx9xAIWeZqhuQv69VmFs3vO0Af9FDAa9Q==",
       "type": "package",
-      "path": "microsoft.extensions.configuration.abstractions/3.1.8",
+      "path": "microsoft.extensions.configuration.abstractions/3.1.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2937,14 +2277,14 @@
         "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.xml",
         "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.xml",
-        "microsoft.extensions.configuration.abstractions.3.1.8.nupkg.sha512",
+        "microsoft.extensions.configuration.abstractions.3.1.6.nupkg.sha512",
         "microsoft.extensions.configuration.abstractions.nuspec"
       ]
     },
-    "Microsoft.Extensions.Configuration.Binder/3.1.8": {
-      "sha512": "l/oqIWRM4YF62mlCOrIKGUOCemsaID/lngK2SZEtpYI8LrktpjPd4QzvENWj5GebbLbqOtsFhF6Ko6dgzmUnBw==",
+    "Microsoft.Extensions.Configuration.Binder/3.1.6": {
+      "sha512": "ZEEuo0TEQE+a/+l4EB/KdsjVt9bIee37c74C7Q+lLiP6WiPuBytP4EmxPYwrTB/oQX8sm9W3KvVGE5WW6oaNPg==",
       "type": "package",
-      "path": "microsoft.extensions.configuration.binder/3.1.8",
+      "path": "microsoft.extensions.configuration.binder/3.1.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2953,14 +2293,14 @@
         "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.Binder.xml",
         "lib/netstandard2.0/Microsoft.Extensions.Configuration.Binder.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Configuration.Binder.xml",
-        "microsoft.extensions.configuration.binder.3.1.8.nupkg.sha512",
+        "microsoft.extensions.configuration.binder.3.1.6.nupkg.sha512",
         "microsoft.extensions.configuration.binder.nuspec"
       ]
     },
-    "Microsoft.Extensions.DependencyInjection/3.1.14": {
-      "sha512": "8Y0ERNlu5zQAcrh9k6E+6ZHHA9NuBwK9N7RqEpx8eyMbl1DOHblerXFLtuKoBY1x+GafDdZXKEmfU7DEfCSb7g==",
+    "Microsoft.Extensions.DependencyInjection/3.1.6": {
+      "sha512": "YMJWflBmBc0PbqYvt3m4ueSCgV51JLfqHhyunoVq0rBs9V4sVQw5JsPTB17bIrlHFJs2pt2olgfavOOvuGwoRg==",
       "type": "package",
-      "path": "microsoft.extensions.dependencyinjection/3.1.14",
+      "path": "microsoft.extensions.dependencyinjection/3.1.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2973,28 +2313,28 @@
         "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.xml",
         "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.dll",
         "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.xml",
-        "microsoft.extensions.dependencyinjection.3.1.14.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.3.1.6.nupkg.sha512",
         "microsoft.extensions.dependencyinjection.nuspec"
       ]
     },
-    "Microsoft.Extensions.DependencyInjection.Abstractions/3.1.14": {
-      "sha512": "DKI1KGqMqIRV9fc4UKlLsYIbFBz+syMcXwnpI2G1Sc5GNKSlx8yl8uQEJR6e5DAxTla+kVd8JOa0jHcvy7Lm7A==",
+    "Microsoft.Extensions.DependencyInjection.Abstractions/3.1.6": {
+      "sha512": "JVlypPjlPqOEyAhET6pA7TqrK+Ya8TrYe2vvqsp62TYKS87oNuReoS7XpDFW0rrOsQo66G1yYf3K0E+lJHFHuw==",
       "type": "package",
-      "path": "microsoft.extensions.dependencyinjection.abstractions/3.1.14",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/3.1.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
         "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
-        "microsoft.extensions.dependencyinjection.abstractions.3.1.14.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.abstractions.3.1.6.nupkg.sha512",
         "microsoft.extensions.dependencyinjection.abstractions.nuspec"
       ]
     },
-    "Microsoft.Extensions.Logging/3.1.8": {
-      "sha512": "Bch88WGwrgJUabSOiTbPgne/jkCcWTyP97db8GWzQH9RcGi6TThiRm8ggsD+OXBW2UBwAYx1Zb1ns1elsMiomQ==",
+    "Microsoft.Extensions.Logging/3.1.6": {
+      "sha512": "qZH7iTdJn+kS/DWzQgQWMGMHBv+SqzuJB14G9tKAR2w3b6Wzn4ClAK3LGsc2l/cwBW3At1OJT/jBAal4Qm5Rjw==",
       "type": "package",
-      "path": "microsoft.extensions.logging/3.1.8",
+      "path": "microsoft.extensions.logging/3.1.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3003,76 +2343,28 @@
         "lib/netcoreapp3.1/Microsoft.Extensions.Logging.xml",
         "lib/netstandard2.0/Microsoft.Extensions.Logging.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Logging.xml",
-        "microsoft.extensions.logging.3.1.8.nupkg.sha512",
+        "microsoft.extensions.logging.3.1.6.nupkg.sha512",
         "microsoft.extensions.logging.nuspec"
       ]
     },
-    "Microsoft.Extensions.Logging.Abstractions/3.1.14": {
-      "sha512": "pEKsBsD+nl4MHs8qnv/QiL3uwQMRZCVmeOmdt5NJwKO5ndNc/H9YD/9nmVvr3vlAtRcAj56HZMhNQ/NHbQTOSw==",
+    "Microsoft.Extensions.Logging.Abstractions/3.1.6": {
+      "sha512": "o2XYIjF9UugupEPvFsc9N8SjevixoRznS0V6EtjUZcGV4EjXXWKUXlKKsIWmD3i4dSiGo82aNcyqfQTsF/8h8g==",
       "type": "package",
-      "path": "microsoft.extensions.logging.abstractions/3.1.14",
+      "path": "microsoft.extensions.logging.abstractions/3.1.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.xml",
-        "microsoft.extensions.logging.abstractions.3.1.14.nupkg.sha512",
+        "microsoft.extensions.logging.abstractions.3.1.6.nupkg.sha512",
         "microsoft.extensions.logging.abstractions.nuspec"
       ]
     },
-    "Microsoft.Extensions.Logging.Configuration/3.1.8": {
-      "sha512": "tfvQYDDwc3ni8VTXQavINMHRUIsM8fQ8gBQTs98mt1QFE3YIVm8XzhqPZMBBlLnXTESymb8HctM2fMnU8qC8Rg==",
+    "Microsoft.Extensions.Options/3.1.6": {
+      "sha512": "6nBkdL9UxCfA8eDuFBZVYAYpJhux0a6R7y58KcYnqKEYF84X9cK1uJQ9a+VWEWGXujMa4fnCGoVdKNYhANqbZg==",
       "type": "package",
-      "path": "microsoft.extensions.logging.configuration/3.1.8",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "lib/netcoreapp3.1/Microsoft.Extensions.Logging.Configuration.dll",
-        "lib/netcoreapp3.1/Microsoft.Extensions.Logging.Configuration.xml",
-        "lib/netstandard2.0/Microsoft.Extensions.Logging.Configuration.dll",
-        "lib/netstandard2.0/Microsoft.Extensions.Logging.Configuration.xml",
-        "microsoft.extensions.logging.configuration.3.1.8.nupkg.sha512",
-        "microsoft.extensions.logging.configuration.nuspec"
-      ]
-    },
-    "Microsoft.Extensions.Logging.Console/3.1.8": {
-      "sha512": "7JCZuqty78ZDwoXOGXGUXMC44rpocfeaa/48ONY7neKhCh2Oml/faW3PANPCdwy6M3TicmU03kIOhyrw3dQ2Eg==",
-      "type": "package",
-      "path": "microsoft.extensions.logging.console/3.1.8",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "lib/netcoreapp3.1/Microsoft.Extensions.Logging.Console.dll",
-        "lib/netcoreapp3.1/Microsoft.Extensions.Logging.Console.xml",
-        "lib/netstandard2.0/Microsoft.Extensions.Logging.Console.dll",
-        "lib/netstandard2.0/Microsoft.Extensions.Logging.Console.xml",
-        "microsoft.extensions.logging.console.3.1.8.nupkg.sha512",
-        "microsoft.extensions.logging.console.nuspec"
-      ]
-    },
-    "Microsoft.Extensions.Logging.Debug/3.1.0": {
-      "sha512": "pTuUb46wKuZD2nuvzmlHQfbm9sUAiOg1x1pe1fzxDHaocXaZQDjKGYYZifnTLeJk35OSi8ouEIcbuKLVF16yfg==",
-      "type": "package",
-      "path": "microsoft.extensions.logging.debug/3.1.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/netcoreapp3.1/Microsoft.Extensions.Logging.Debug.dll",
-        "lib/netcoreapp3.1/Microsoft.Extensions.Logging.Debug.xml",
-        "lib/netstandard2.0/Microsoft.Extensions.Logging.Debug.dll",
-        "lib/netstandard2.0/Microsoft.Extensions.Logging.Debug.xml",
-        "microsoft.extensions.logging.debug.3.1.0.nupkg.sha512",
-        "microsoft.extensions.logging.debug.nuspec",
-        "packageIcon.png"
-      ]
-    },
-    "Microsoft.Extensions.Options/3.1.14": {
-      "sha512": "t9a+56OwOoUIluRH/e1o2yyMMOKQuVVFFChJcRRQQdb6z5BS0PS5JSjShWygZ/V3AbU7xoIKtqKopx8NID6oNA==",
-      "type": "package",
-      "path": "microsoft.extensions.options/3.1.14",
+      "path": "microsoft.extensions.options/3.1.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3081,30 +2373,14 @@
         "lib/netcoreapp3.1/Microsoft.Extensions.Options.xml",
         "lib/netstandard2.0/Microsoft.Extensions.Options.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Options.xml",
-        "microsoft.extensions.options.3.1.14.nupkg.sha512",
+        "microsoft.extensions.options.3.1.6.nupkg.sha512",
         "microsoft.extensions.options.nuspec"
       ]
     },
-    "Microsoft.Extensions.Options.ConfigurationExtensions/3.1.8": {
-      "sha512": "/q7OhcsgDq6cPqg03nv55QqLt8o/OAvrVkd/w6h0YNasZ4C/Lxpx6I0DsnIH0MB5ORnqCyhmeyv1hFqOeehJng==",
+    "Microsoft.Extensions.Primitives/3.1.6": {
+      "sha512": "X+h3tO383iMbtFxYp6Al4pgBzbfQKJY8/gd4U7+sZy90XeSfnw5SwHyCiRrAePG6kee4zCGsvQHPCqaTZ876hw==",
       "type": "package",
-      "path": "microsoft.extensions.options.configurationextensions/3.1.8",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "lib/netcoreapp3.1/Microsoft.Extensions.Options.ConfigurationExtensions.dll",
-        "lib/netcoreapp3.1/Microsoft.Extensions.Options.ConfigurationExtensions.xml",
-        "lib/netstandard2.0/Microsoft.Extensions.Options.ConfigurationExtensions.dll",
-        "lib/netstandard2.0/Microsoft.Extensions.Options.ConfigurationExtensions.xml",
-        "microsoft.extensions.options.configurationextensions.3.1.8.nupkg.sha512",
-        "microsoft.extensions.options.configurationextensions.nuspec"
-      ]
-    },
-    "Microsoft.Extensions.Primitives/3.1.14": {
-      "sha512": "OusiQZUlEHI5MwfIymyJgY8nN0bKqCsGvALG0khcNkO9h8H8d4wtakaKBQORDlKkYYLSq/pap7wRUxh6eLs3vg==",
-      "type": "package",
-      "path": "microsoft.extensions.primitives/3.1.14",
+      "path": "microsoft.extensions.primitives/3.1.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3113,7 +2389,7 @@
         "lib/netcoreapp3.1/Microsoft.Extensions.Primitives.xml",
         "lib/netstandard2.0/Microsoft.Extensions.Primitives.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Primitives.xml",
-        "microsoft.extensions.primitives.3.1.14.nupkg.sha512",
+        "microsoft.extensions.primitives.3.1.6.nupkg.sha512",
         "microsoft.extensions.primitives.nuspec"
       ]
     },
@@ -3155,138 +2431,6 @@
         "ref/uap10.0/Microsoft.Identity.Client.xml",
         "ref/xamarinmac20/Microsoft.Identity.Client.dll",
         "ref/xamarinmac20/Microsoft.Identity.Client.xml"
-      ]
-    },
-    "Microsoft.IdentityModel.JsonWebTokens/5.5.0": {
-      "sha512": "cT9SCW/dN+ulrvAtbh37c36DR6aArENH3S4UtFmvXRx+VGC0ArDgzRaEbEh+ChS4koxdl2oS691250iZhgKvwg==",
-      "type": "package",
-      "path": "microsoft.identitymodel.jsonwebtokens/5.5.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net45/Microsoft.IdentityModel.JsonWebTokens.dll",
-        "lib/net45/Microsoft.IdentityModel.JsonWebTokens.xml",
-        "lib/net451/Microsoft.IdentityModel.JsonWebTokens.dll",
-        "lib/net451/Microsoft.IdentityModel.JsonWebTokens.xml",
-        "lib/net461/Microsoft.IdentityModel.JsonWebTokens.dll",
-        "lib/net461/Microsoft.IdentityModel.JsonWebTokens.xml",
-        "lib/netstandard1.4/Microsoft.IdentityModel.JsonWebTokens.dll",
-        "lib/netstandard1.4/Microsoft.IdentityModel.JsonWebTokens.xml",
-        "lib/netstandard2.0/Microsoft.IdentityModel.JsonWebTokens.dll",
-        "lib/netstandard2.0/Microsoft.IdentityModel.JsonWebTokens.xml",
-        "microsoft.identitymodel.jsonwebtokens.5.5.0.nupkg.sha512",
-        "microsoft.identitymodel.jsonwebtokens.nuspec"
-      ]
-    },
-    "Microsoft.IdentityModel.Logging/5.5.0": {
-      "sha512": "1w/Hz/7+al+ugQn+6y0tAPmpN8U0u1aBtl1QXYCVkiJfbCC4tgyroFOuhdztOq48rgeM+3JW9bGqOtkfVurW8w==",
-      "type": "package",
-      "path": "microsoft.identitymodel.logging/5.5.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net45/Microsoft.IdentityModel.Logging.dll",
-        "lib/net45/Microsoft.IdentityModel.Logging.xml",
-        "lib/net451/Microsoft.IdentityModel.Logging.dll",
-        "lib/net451/Microsoft.IdentityModel.Logging.xml",
-        "lib/net461/Microsoft.IdentityModel.Logging.dll",
-        "lib/net461/Microsoft.IdentityModel.Logging.xml",
-        "lib/netstandard1.4/Microsoft.IdentityModel.Logging.dll",
-        "lib/netstandard1.4/Microsoft.IdentityModel.Logging.xml",
-        "lib/netstandard2.0/Microsoft.IdentityModel.Logging.dll",
-        "lib/netstandard2.0/Microsoft.IdentityModel.Logging.xml",
-        "microsoft.identitymodel.logging.5.5.0.nupkg.sha512",
-        "microsoft.identitymodel.logging.nuspec"
-      ]
-    },
-    "Microsoft.IdentityModel.Protocols/5.5.0": {
-      "sha512": "m1gwAQwZjUxzRBC+4H40vYSo9Cms9yUbMdW492rQoXHU77G/ItiKxpk2+W9bWYcdsKUDKudye7im3T3MlVxEkg==",
-      "type": "package",
-      "path": "microsoft.identitymodel.protocols/5.5.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net45/Microsoft.IdentityModel.Protocols.dll",
-        "lib/net45/Microsoft.IdentityModel.Protocols.xml",
-        "lib/net451/Microsoft.IdentityModel.Protocols.dll",
-        "lib/net451/Microsoft.IdentityModel.Protocols.xml",
-        "lib/net461/Microsoft.IdentityModel.Protocols.dll",
-        "lib/net461/Microsoft.IdentityModel.Protocols.xml",
-        "lib/netstandard1.4/Microsoft.IdentityModel.Protocols.dll",
-        "lib/netstandard1.4/Microsoft.IdentityModel.Protocols.xml",
-        "lib/netstandard2.0/Microsoft.IdentityModel.Protocols.dll",
-        "lib/netstandard2.0/Microsoft.IdentityModel.Protocols.xml",
-        "microsoft.identitymodel.protocols.5.5.0.nupkg.sha512",
-        "microsoft.identitymodel.protocols.nuspec"
-      ]
-    },
-    "Microsoft.IdentityModel.Protocols.OpenIdConnect/5.5.0": {
-      "sha512": "21F4QlbaD5CXNs2urNRCO6vljbbrhv3gmGT8P18SKGKZ9IYBCn29extoJriHiPfhABd5b8S7RcdKU50XhERkYg==",
-      "type": "package",
-      "path": "microsoft.identitymodel.protocols.openidconnect/5.5.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net45/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll",
-        "lib/net45/Microsoft.IdentityModel.Protocols.OpenIdConnect.xml",
-        "lib/net451/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll",
-        "lib/net451/Microsoft.IdentityModel.Protocols.OpenIdConnect.xml",
-        "lib/net461/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll",
-        "lib/net461/Microsoft.IdentityModel.Protocols.OpenIdConnect.xml",
-        "lib/netstandard1.4/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll",
-        "lib/netstandard1.4/Microsoft.IdentityModel.Protocols.OpenIdConnect.xml",
-        "lib/netstandard2.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll",
-        "lib/netstandard2.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.xml",
-        "microsoft.identitymodel.protocols.openidconnect.5.5.0.nupkg.sha512",
-        "microsoft.identitymodel.protocols.openidconnect.nuspec"
-      ]
-    },
-    "Microsoft.IdentityModel.Tokens/5.5.0": {
-      "sha512": "cu1klZiuCwVYbXHs0QdnseuoRGG1/85VX9d1Sk0vbJlKp+HJUN/4pAS/fe2m9bTOYyIPdeCHeksMiVHgo1EfAA==",
-      "type": "package",
-      "path": "microsoft.identitymodel.tokens/5.5.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net45/Microsoft.IdentityModel.Tokens.dll",
-        "lib/net45/Microsoft.IdentityModel.Tokens.xml",
-        "lib/net451/Microsoft.IdentityModel.Tokens.dll",
-        "lib/net451/Microsoft.IdentityModel.Tokens.xml",
-        "lib/net461/Microsoft.IdentityModel.Tokens.dll",
-        "lib/net461/Microsoft.IdentityModel.Tokens.xml",
-        "lib/netstandard1.4/Microsoft.IdentityModel.Tokens.dll",
-        "lib/netstandard1.4/Microsoft.IdentityModel.Tokens.xml",
-        "lib/netstandard2.0/Microsoft.IdentityModel.Tokens.dll",
-        "lib/netstandard2.0/Microsoft.IdentityModel.Tokens.xml",
-        "microsoft.identitymodel.tokens.5.5.0.nupkg.sha512",
-        "microsoft.identitymodel.tokens.nuspec"
-      ]
-    },
-    "Newtonsoft.Json/10.0.1": {
-      "sha512": "ebWzW9j2nwxQeBo59As2TYn7nYr9BHicqqCwHOD1Vdo+50HBtLPuqdiCYJcLdTRknpYis/DSEOQz5KmZxwrIAg==",
-      "type": "package",
-      "path": "newtonsoft.json/10.0.1",
-      "hasTools": true,
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net20/Newtonsoft.Json.dll",
-        "lib/net20/Newtonsoft.Json.xml",
-        "lib/net35/Newtonsoft.Json.dll",
-        "lib/net35/Newtonsoft.Json.xml",
-        "lib/net40/Newtonsoft.Json.dll",
-        "lib/net40/Newtonsoft.Json.xml",
-        "lib/net45/Newtonsoft.Json.dll",
-        "lib/net45/Newtonsoft.Json.xml",
-        "lib/netstandard1.0/Newtonsoft.Json.dll",
-        "lib/netstandard1.0/Newtonsoft.Json.xml",
-        "lib/netstandard1.3/Newtonsoft.Json.dll",
-        "lib/netstandard1.3/Newtonsoft.Json.xml",
-        "lib/portable-net45+win8+wpa81+wp8/Newtonsoft.Json.dll",
-        "lib/portable-net45+win8+wpa81+wp8/Newtonsoft.Json.xml",
-        "newtonsoft.json.10.0.1.nupkg.sha512",
-        "newtonsoft.json.nuspec",
-        "tools/install.ps1"
       ]
     },
     "System.Buffers/4.5.1": {
@@ -3512,27 +2656,6 @@
         "version.txt"
       ]
     },
-    "System.IdentityModel.Tokens.Jwt/5.5.0": {
-      "sha512": "xa8kptJ+uf9hzj366f3pLcs5HFZ6dQMDKzEGq/yZNF0s3mVfyIhuQwgDcTJlAU4AROne/6Z5+vITwrW3gVNKIA==",
-      "type": "package",
-      "path": "system.identitymodel.tokens.jwt/5.5.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net45/System.IdentityModel.Tokens.Jwt.dll",
-        "lib/net45/System.IdentityModel.Tokens.Jwt.xml",
-        "lib/net451/System.IdentityModel.Tokens.Jwt.dll",
-        "lib/net451/System.IdentityModel.Tokens.Jwt.xml",
-        "lib/net461/System.IdentityModel.Tokens.Jwt.dll",
-        "lib/net461/System.IdentityModel.Tokens.Jwt.xml",
-        "lib/netstandard1.4/System.IdentityModel.Tokens.Jwt.dll",
-        "lib/netstandard1.4/System.IdentityModel.Tokens.Jwt.xml",
-        "lib/netstandard2.0/System.IdentityModel.Tokens.Jwt.dll",
-        "lib/netstandard2.0/System.IdentityModel.Tokens.Jwt.xml",
-        "system.identitymodel.tokens.jwt.5.5.0.nupkg.sha512",
-        "system.identitymodel.tokens.jwt.nuspec"
-      ]
-    },
     "System.Memory/4.5.4": {
       "sha512": "1MbJTHS1lZ4bS4FmsJjnuGJOu88ZzTT2rLvrhW7Ygic+pC0NWA+3hgAen0HRdsocuQXCkUTdFn9yHJJhsijDXw==",
       "type": "package",
@@ -3673,13 +2796,9 @@
   },
   "projectFileDependencyGroups": {
     ".NETFramework,Version=v4.7.2": [
-      "Microsoft.EntityFrameworkCore >= 3.1.14",
-      "Microsoft.EntityFrameworkCore.SqlServer >= 3.1.8",
-      "Microsoft.EntityFrameworkCore.Tools >= 3.1.8",
-      "Microsoft.Extensions.Logging >= 3.1.8",
-      "Microsoft.Extensions.Logging.Abstractions >= 3.1.14",
-      "Microsoft.Extensions.Logging.Console >= 3.1.8",
-      "Microsoft.Extensions.Logging.Debug >= 3.1.0"
+      "Microsoft.EntityFrameworkCore >= 3.1.6",
+      "Microsoft.EntityFrameworkCore.SqlServer >= 3.1.6",
+      "Microsoft.EntityFrameworkCore.Tools >= 3.1.6"
     ]
   },
   "packageFolders": {
@@ -3688,11 +2807,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dell\\source\\repos\\EF_Project_Demo\\EF_Project_Demo\\EF_Project_Demo.csproj",
+      "projectUniqueName": "C:\\Users\\dell\\Desktop\\EF_Project_Demo\\EF_Project_Demo\\EF_Project_Demo.csproj",
       "projectName": "EF_Project_Demo",
-      "projectPath": "C:\\Users\\dell\\source\\repos\\EF_Project_Demo\\EF_Project_Demo\\EF_Project_Demo.csproj",
+      "projectPath": "C:\\Users\\dell\\Desktop\\EF_Project_Demo\\EF_Project_Demo\\EF_Project_Demo.csproj",
       "packagesPath": "C:\\Users\\dell\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dell\\source\\repos\\EF_Project_Demo\\EF_Project_Demo\\obj\\",
+      "outputPath": "C:\\Users\\dell\\Desktop\\EF_Project_Demo\\EF_Project_Demo\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -3717,33 +2836,17 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
-            "version": "[3.1.14, )"
+            "version": "[3.1.6, )"
           },
           "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",
-            "version": "[3.1.8, )"
+            "version": "[3.1.6, )"
           },
           "Microsoft.EntityFrameworkCore.Tools": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "suppressParent": "All",
             "target": "Package",
-            "version": "[3.1.8, )"
-          },
-          "Microsoft.Extensions.Logging": {
-            "target": "Package",
-            "version": "[3.1.8, )"
-          },
-          "Microsoft.Extensions.Logging.Abstractions": {
-            "target": "Package",
-            "version": "[3.1.14, )"
-          },
-          "Microsoft.Extensions.Logging.Console": {
-            "target": "Package",
-            "version": "[3.1.8, )"
-          },
-          "Microsoft.Extensions.Logging.Debug": {
-            "target": "Package",
-            "version": "[3.1.0, )"
+            "version": "[3.1.6, )"
           }
         }
       }
@@ -3759,20 +2862,5 @@
         "#import": []
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1605",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Detected package downgrade: Microsoft.Extensions.Logging from 3.1.14 to 3.1.8. Reference the package directly from the project to select a different version. \r\n EF_Project_Demo -> Microsoft.EntityFrameworkCore 3.1.14 -> Microsoft.Extensions.Logging (>= 3.1.14) \r\n EF_Project_Demo -> Microsoft.Extensions.Logging (>= 3.1.8)",
-      "libraryId": "Microsoft.Extensions.Logging",
-      "targetGraphs": [
-        ".NETFramework,Version=v4.7.2",
-        ".NETFramework,Version=v4.7.2/win",
-        ".NETFramework,Version=v4.7.2/win-x64",
-        ".NETFramework,Version=v4.7.2/win-x86"
-      ]
-    }
-  ]
+  }
 }

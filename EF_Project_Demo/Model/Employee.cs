@@ -8,24 +8,21 @@ using System.Threading.Tasks;
 
 namespace EF_Project_Demo.Model
 {
-    [Table("NHANVIEN")]
+   // [Table("NHANVIEN")]
     public class Employee
     {
-        [Key] // PK
         public int EmployeeId { get; set; }
-        [Required]
-        [StringLength(50)]
         public string EmployeeName { get; set; }
-        [Required]
-        [StringLength(50)]
         public string Address { get; set; }
-        [Required]
-        [StringLength(50)]
         public string Phone { get; set; }
-        [Required]
         public int Salary { get; set; }
+
         public byte[] Image { get; set; }
 
-        public IList<Sale> Sales { get; set; } = new List<Sale>();
+        public ICollection<Sale> Sales { get; set; }
+        public Employee()
+        {
+            Sales = new List<Sale>();
+        }
     }
 }
